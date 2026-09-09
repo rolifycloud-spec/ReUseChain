@@ -1,0 +1,19 @@
+
+# BEGIN WordPress
+# Direktive (redovi) između `BEGIN WordPress` i `END WordPress` su
+# dinamički generisani, i trebali bi ih mijenjati samo koristeći WordPress filtere.
+# Sve promijene direktiva između navedenih markera biti će prebrisane.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+# END WordPress
