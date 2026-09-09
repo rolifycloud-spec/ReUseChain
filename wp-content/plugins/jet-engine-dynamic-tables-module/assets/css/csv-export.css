@@ -1,0 +1,48 @@
+.jet-dynamic-table__export-controls-box {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.jet-dynamic-table__export-controls-box.controls-disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.jet-dynamic-table__export-source-wrapper {
+    width: fit-content;
+}
+
+.jet-dynamic-table__included-columns-wrapper {
+    flex: auto;
+}
+
+.jet-dynamic-table__export-button {
+    padding: 5px 10px;
+}
+
+.jet-dynamic-table__export-button-wrapper label {
+    visibility: hidden;
+}
+
+.jet-dynamic-table__export-controls-box .control {
+    height: 30px;
+}
+
+.jet-dynamic-table__export-controls-box .control-wrapper .chosen-single {
+    height: 29px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.jet-dynamic-table__export-error {
+    text-align: center;
+    color: darkred;
+    font-size: 1em;
+}
+
+.jet-dynamic-table__export-hidden {
+    display: none;
+}

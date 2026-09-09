@@ -1,0 +1,59 @@
+{
+	"apiVersion": 3,
+	"name": "jet-tricks/view-more",
+	"category": "jet-tricks",
+	"title": "Read More",
+	"description": "Organize content in a compact way with a Read More button that reveals hidden sections.",
+	"icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" fill=\"none\"><g transform=\"scale(0.0625) translate(0, 1024) scale(1, -1)\"><path d=\"M608 256c17.674 0 32-14.326 32-32v-32c0-17.674-14.326-32-32-32h-192c-17.674 0-32 14.326-32 32v32c0 17.674 14.326 32 32 32h192zM416 288c-35.346 0-64-28.654-64-64v-32c0-35.346 28.654-64 64-64h192c35.346 0 64 28.654 64 64v32c0 35.346-28.654 64-64 64h-192zM64 912h192c35.346 0 64-28.654 64-64v-192c0-35.346-28.654-64-64-64h-192c-35.346 0-64 28.654-64 64v192c0 35.346 28.654 64 64 64zM256 880h-192c-17.673 0-32-14.327-32-32v-192c0-17.674 14.327-32 32-32h192c17.674 0 32 14.326 32 32v192c0 17.673-14.326 32-32 32zM416 912h192c35.346 0 64-28.654 64-64v-192c0-35.346-28.654-64-64-64h-192c-35.346 0-64 28.654-64 64v192c0 35.346 28.654 64 64 64zM608 880h-192c-17.674 0-32-14.327-32-32v-192c0-17.674 14.326-32 32-32h192c17.674 0 32 14.326 32 32v192c0 17.673-14.326 32-32 32zM704 848v-192c0-35.346 28.654-64 64-64h192c35.346 0 64 28.654 64 64v192c0 35.346-28.654 64-64 64h-192c-35.346 0-64-28.654-64-64zM768 880h192c17.674 0 32-14.327 32-32v-192c0-17.674-14.326-32-32-32h-192c-17.674 0-32 14.326-32 32v192c0 17.673 14.326 32 32 32zM32 528c0 8.837 7.164 16 16 16h224c8.837 0 16-7.163 16-16s-7.163-16-16-16h-224c-8.836 0-16 7.163-16 16zM32 464c0 8.837 7.164 16 16 16h224c8.837 0 16-7.163 16-16s-7.163-16-16-16h-224c-8.836 0-16 7.163-16 16zM48 416c-8.836 0-16-7.163-16-16s7.164-16 16-16h96c8.836 0 16 7.163 16 16s-7.164 16-16 16h-96zM384 528c0 8.837 7.163 16 16 16h224c8.837 0 16-7.163 16-16s-7.163-16-16-16h-224c-8.837 0-16 7.163-16 16zM400 480c-8.837 0-16-7.163-16-16s7.163-16 16-16h224c8.837 0 16 7.163 16 16s-7.163 16-16 16h-224zM384 400c0 8.837 7.163 16 16 16h96c8.837 0 16-7.163 16-16s-7.163-16-16-16h-96c-8.837 0-16 7.163-16 16zM752 544c-8.837 0-16-7.163-16-16s7.163-16 16-16h224c8.837 0 16 7.163 16 16s-7.163 16-16 16h-224zM736 464c0 8.837 7.163 16 16 16h224c8.837 0 16 7.163 16 16s-7.163-16-16-16h-224c-8.837 0-16 7.163-16 16zM752 416c-8.837 0-16-7.163-16-16s7.163-16 16-16h96c8.837 0 16 7.163 16 16s-7.163 16-16 16h-96z\" fill=\"currentColor\"/></g></svg>\n",
+	"textdomain": "jet-tricks",
+	"keywords": [ "read more", "view more", "expand", "jet tricks" ],
+	"attributes": {
+		"className": {
+			"type": "string",
+			"default": ""
+		},
+		"sections": {
+			"type": "array",
+			"default": [
+				{ "id": "section_0", "sectionId": "section_1" }
+			]
+		},
+		"buttonLabel": {
+			"type": "string",
+			"default": "Read More"
+		},
+		"buttonIcon": {
+			"type": "object",
+			"default": {}
+		},
+		"showAll": {
+			"type": "boolean",
+			"default": false
+		},
+		"showEffect": {
+			"type": "string",
+			"default": "move-up"
+		},
+		"readLess": {
+			"type": "boolean",
+			"default": false
+		},
+		"readLessLabel": {
+			"type": "string",
+			"default": "Read Less"
+		},
+		"readLessIcon": {
+			"type": "object",
+			"default": {}
+		},
+		"hideAll": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideEffect": {
+			"type": "string",
+			"default": "move-down"
+		}
+	},
+	"editorScript": "jet-tricks-blocks-views"
+}

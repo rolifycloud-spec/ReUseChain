@@ -1,0 +1,867 @@
+=== Better Messages - Chat Rooms, Group Chat, Private Messages & AI Chat Bots ===
+Contributors: wordplus
+Tags: BuddyPress, chat room, video chat, group chat, private message
+Requires at least: 5.9.0
+Tested up to: 7.1
+Requires PHP: 7.4
+Stable tag: 2.15.32
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+Real-time messaging and chat rooms for WordPress ecosystem: private conversations, public and private chat rooms, video & audio calls, and more.
+
+== Description ==
+
+**Better Messages** is the most feature-rich **realtime private messaging system for WordPress**, with native integrations for **BuddyPress, BuddyBoss Platform, Ultimate Member, PeepSo** and any other WordPress powered websites.
+
+Transform your WordPress site into a powerful communication platform with **private messaging**, **chat rooms**, **video and audio calls**, **group video chats**, **AI chat bots**, and **native mobile apps**.
+
+Whether you're building a private or public community, social network, intranet, chat-rooms site, marketplace, membership site, dating platform, or creator economy site – Better Messages provides enterprise-level messaging features with an easy-to-use interface.
+
+**Try Better Messages:**
+
+* **[Live Demo](https://www.wordplus.org/demo.php)** — fully functional demo site
+* **[Documentation & Knowledge Base](https://www.better-messages.com/docs/getting-started/about/)** — setup guides, features, FAQ
+* **[All Integrations](https://www.better-messages.com/docs/category/integrations/)** — every supported plugin and theme
+* **[Pricing](https://www.better-messages.com/docs/pricing/)** — free vs WebSocket version comparison
+* **[Blog & Tutorials](https://www.better-messages.com/blog/)** — guides, walkthroughs, integration deep-dives
+
+**For developers:**
+
+* **[REST API Reference](https://www.better-messages.com/rest-api/)** — every endpoint and parameter
+* **[PHP Hooks](https://www.better-messages.com/hooks/php-actions/)** — actions, filters, helper functions
+* **[JavaScript Hooks](https://www.better-messages.com/hooks/js-actions/)** — frontend events and customization API
+* **[Changelog](https://www.better-messages.com/changelog/)** — every release and bug fix
+* **[Roadmap](https://www.better-messages.com/roadmap/)** — upcoming features and votes
+
+**Popular use cases:**
+
+Better Messages is widely used to power messaging for:
+
+* **Private communities** — paid and members-only community platforms, mastermind groups, alumni networks, course cohorts, coaching circles, role-restricted messaging, group chats, AI Chat Bots for onboarding and FAQs, end-to-end encryption for sensitive conversations
+* **Public communities and social networks** — open social platforms, hobby and interest communities, BuddyPress / BuddyBoss / PeepSo / FluentCommunity-powered sites, private messaging, group conversations, chat rooms, mini chat widgets that follow users across the site
+* **Intranet and corporate websites** — internal employee communication, team and department channels, role-restricted access by WordPress role, file sharing, voice and video calls for remote teams, self-hosted plan for sites with data-sovereignty requirements
+* **Chat rooms websites** — sites built around real-time chat rooms as the primary feature, public and private rooms, topic-based discussion, guest access for unregistered visitors, AJAX or WebSocket delivery
+* **Dating and matchmaking sites** — private 1-on-1 chat, photo and video attachments, voice and video calls, profile-to-profile chat buttons on member directories, guest chat for browsing visitors, end-to-end encryption for private conversations
+* **Creator economy and fan platforms** — **paid messaging** with per-message and per-call billing via [GamiPress](https://www.better-messages.com/docs/integrations/gamipress/) or [MyCRED](https://www.better-messages.com/docs/integrations/mycred/), private video calls, mass messaging to fans, always-on mini chat widgets
+* **Premium and monetized DM platforms** — charge per direct message or per call with per-role pricing, balance display, role-restricted messaging, AI Content Moderation to filter spam and scam attempts
+* **Coaching and mentorship platforms** — client-to-coach DMs, scheduled video calls, voice messages, file sharing, course chat rooms via LMS integrations
+* **Online stores ([WooCommerce](https://www.better-messages.com/docs/integrations/woocommerce/))** — pre-sales chat on product pages, post-purchase order support, cart-context-aware messages, embedded inbox in My Account
+* **Multi-vendor marketplaces and classifieds** — buyer-to-seller chat on every listing, per-listing threads, guest chat for unregistered visitors
+* **Online courses (LMS)** — course chat rooms, instructor-to-student DMs, group conversations for cohort-based courses
+* **Forums and Q&A communities** — Private Message link on every reply, follow-up chat for thread participants
+* **Real estate and listings sites** — agent inquiry messaging, property-context chat threads, guest chat for browsing visitors
+* **Live events and webinars** — event lobby chat rooms, guest access for non-registered attendees, group voice and video calls for AMAs, pinned messages with event agendas
+* **Booking and appointment platforms** — guest-to-host messaging on listings and bookings, file sharing for documents, voice and video calls before check-in
+* **Crypto and Web3 communities** — token-gated chat rooms via membership plugin and WordPress roles, AMA group calls, AI knowledge bots for whitepaper questions, mobile apps for on-the-go engagement
+
+"**Better Messages**" plugin is formerly called "**BP Better Messages**".
+
+**[Translate Better Messages to your language](https://www.wordplus.org/bm-translate/)**
+
+https://www.youtube.com/watch?v=jMHx97QsXj8
+
+**Core Messaging Features:**
+
+* AJAX or WebSocket powered realtime conversations
+* Private one-to-one conversations
+* Group conversations with unlimited participants
+* Chat Rooms with guest access support
+* Messages for BuddyPress Groups, PeepSo Groups, Ultimate Member Groups, FluentCommunity Groups
+* Subjects for conversations
+* Search across all messages
+* Mark messages as favorite
+* Pin important messages to conversation top
+* Pin favorite conversations to list top
+* Filter conversations list to show only unread conversations
+* Reply to specific messages
+* Edit sent messages (with edit indicator)
+* Delete messages
+* Forward messages to other conversations
+* Mute conversation notifications
+* Message draft autosave with recovery
+
+**AI & Automation:**
+
+* AI Chat Bots powered by OpenAI, Anthropic (Claude) and Google Gemini
+* AI Chat Bots in group conversations with mention-based responses
+* Conversation summarization and scheduled digests with AI
+* Token usage tracking with cost estimation
+* Voice message transcription powered by Better Messages Cloud AI or OpenAI
+* Web Search capability for AI bots
+* File Search tool for AI bots
+* Image generation with AI
+* PDF file support for AI conversations
+
+**Media & Content:**
+
+* File sharing with resumable uploads and ability to protect files from direct access (images, videos, documents)
+* Client-side image and video optimization for cross-browser compatibility and saving storage space (format conversion, quality control, metadata stripping)
+* Voice Messages (available as addon)
+* Embedded links with thumbnails and descriptions
+* oEmbed support for YouTube, Vimeo, Spotify, SoundCloud, Flickr and 20+ services
+* Emoji selector
+* Built-in sticker packs with role-based access and per-locale support
+* GIF integration with GIPHY and Klipy providers
+* Inline sticker suggestions while typing
+* Markdown text formatting support
+
+**Notifications:**
+
+* Email notifications for unread messages (customizable templates)
+* Unsubscribe link support in emails
+* Sound notifications for new messages
+* On-site toast notifications anywhere on your website
+
+**Moderation & Security:**
+
+* AI Content Moderation with two providers:
+  * **Better Messages Moderation AI** — included with WebSocket license at no additional cost, no third-party API keys required. Powered by Better Messages Cloud with extended categories, custom rules, and conversation context awareness
+  * **OpenAI Moderation API** — free to use, requires an OpenAI API key
+* Custom moderation rules — define your own rules in plain text
+* Conversation context awareness — detect patterns split across multiple messages
+* Choose between "Flag Only" (recommended) or "Hold for Review" moderation actions
+* Pre-Moderated Messages - review messages before delivery
+* Report messages feature
+* Bad words filter with customizable blacklist
+* Block user feature
+* Role-based access control
+* User whitelist/blacklist for moderation
+
+**Engagement Features:**
+
+* Reactions to messages
+* Mentions (@username)
+* Mass messaging from WP Admin with scheduling, file attachments, and background processing
+* Suggested conversations for new users
+
+**[Mini Widgets](https://www.better-messages.com/docs/features/mini-widgets/):**
+
+* Embed conversation entry points anywhere on your site without using shortcodes
+* Five widgets: Friends, Groups, Users, AI Bots, Chat Rooms
+* Two display styles: Classic Bar or Floating Bubble (with chat heads)
+* Three placement surfaces: bottom bar, side panel, mobile tab bar
+* Per-widget icon picker, search box, role restrictions, and "Hide Tab When Empty" toggle
+* Users widget with three display modes (all / by role / hand-picked) and sorting by last activity or registration date
+* Customizable order of tabs in mini widgets, side panel and mobile view
+
+**Customization:**
+
+* Modern, fully customizable design
+* Easy color customization via WP Customizer
+* Custom notification sounds
+* RTL layout support
+* White label solution
+* Fully translatable
+* Auto-delete old messages option
+
+**Privacy & GDPR:**
+
+* Dedicated Privacy & GDPR settings page
+* All message data stored on your own server
+* AI moderation (when enabled) sends message content for analysis — Better Messages Cloud does not store any data, review OpenAI's data policy if using OpenAI provider
+* WordPress personal data export and erasure support (Tools → Export/Erase Personal Data)
+* Suggested privacy policy text that adapts based on enabled features
+* Self-hosted emoji images option — no external CDN requests
+* Privacy-friendly video embeds — YouTube, Vimeo load only after user clicks
+* No cookies set, no analytics or tracking scripts
+* [Privacy & GDPR documentation](https://www.better-messages.com/docs/features/privacy-gdpr/)
+
+**This is not a complete list of features** - Better Messages has many more small features and options that are not listed here. We are constantly adding new features and improvements based on user feedback.
+
+**Compatible plugins & themes — 35+ native integrations:**
+
+Better Messages works on **any** WordPress site out of the box. If your site already runs a community plugin, an LMS, a marketplace, or a directory, Better Messages plugs into it directly — inheriting members, profiles, groups, courses, listings, and posts so chat surfaces appear in the right places without setup.
+
+**Community & Membership Platforms** — replaces the built-in messenger and inherits members, profiles, friends, and groups:
+
+* [BuddyPress](https://www.better-messages.com/docs/integrations/buddypress/)
+* [BuddyBoss Platform](https://www.better-messages.com/docs/integrations/buddyboss/) — including BuddyBoss Theme and ReadyLaunch
+* [PeepSo](https://www.better-messages.com/docs/integrations/peepso/)
+* [Ultimate Member](https://www.better-messages.com/docs/integrations/ultimate-member/)
+* [FluentCommunity](https://www.better-messages.com/docs/integrations/fluentcommunity/) — including Spaces and Courses
+* [SureDash](https://www.better-messages.com/docs/integrations/suredash/)
+* [ProfileGrid](https://www.better-messages.com/docs/integrations/profile-grid/)
+* [UsersWP](https://www.better-messages.com/docs/integrations/userswp/)
+* [WP User Manager](https://www.better-messages.com/docs/integrations/wp-user-manager/)
+
+**Learning Management Systems (LMS)** — course chat rooms, instructor messaging, and student-to-student conversations:
+
+* [LearnDash](https://www.better-messages.com/docs/integrations/learndash/) — including Instructor Role add-on
+* [LearnPress](https://www.better-messages.com/docs/integrations/learnpress/)
+* [Tutor LMS](https://www.better-messages.com/docs/integrations/tutor-lms/)
+* [MasterStudy LMS](https://www.better-messages.com/docs/integrations/masterstudy-lms/)
+* FluentCommunity Courses
+
+**E-commerce — WooCommerce** — pre-sales and order support chat for online stores:
+
+* [WooCommerce](https://www.better-messages.com/docs/integrations/woocommerce/) — Contact buttons on **product**, **cart**, **checkout**, and **order** pages. Cart contents are auto-posted into the conversation as a rich message so your support agent immediately sees what the customer is looking at, order pages post a structured order context card. Plain product URLs pasted into any chat are expanded into rich product cards. Embedded inbox lives inside WooCommerce **My Account**. **HPOS-compatible**, block-theme-compatible, works with **guest checkout**. Available on **both the free and WebSocket versions** — the WebSocket version opens chats as a popup mini-widget overlay instead of navigating away.
+
+**Marketplaces & Multi-Vendor** — buyer-to-vendor chat on top of WooCommerce, with per-vendor opt-in and contact buttons on vendor stores, product pages, and order details:
+
+* [Dokan Marketplace](https://www.better-messages.com/docs/integrations/dokan/)
+* [MultiVendorX](https://www.better-messages.com/docs/integrations/multivendorx/)
+* [WCFM](https://www.better-messages.com/docs/integrations/wcfm/)
+* [WC Vendors](https://www.better-messages.com/docs/integrations/wc-vendors/)
+
+**Listings, Directories & Classifieds** — contact buttons on every listing, with per-listing threads:
+
+* [HivePress](https://www.better-messages.com/docs/integrations/hivepress/)
+* [Directorist](https://www.better-messages.com/docs/integrations/directorist/)
+* [GeoDirectory](https://www.better-messages.com/docs/integrations/geodirectory/)
+* [Classified Listing](https://www.better-messages.com/docs/integrations/classified-listing/)
+* [Motors – Car Dealer, Classifieds & Listing](https://www.better-messages.com/docs/integrations/motors/)
+* [WP Job Manager](https://www.better-messages.com/docs/integrations/wp-job-manager/)
+
+**Real Estate Themes** — agent and inquiry messaging on property listings:
+
+* [Houzez](https://www.better-messages.com/docs/integrations/houzez/)
+* [RealHomes](https://www.better-messages.com/docs/integrations/realhomes/)
+
+**Forums** — Private Message link on every reply:
+
+* [wpForo](https://www.better-messages.com/docs/integrations/wpforo/)
+* bbPress
+
+**Gamification, Points & Paid Access** — charge per message or call with per-role pricing and balance display:
+
+* [GamiPress](https://www.better-messages.com/docs/integrations/gamipress/)
+* [MyCRED](https://www.better-messages.com/docs/integrations/mycred/)
+
+**Automation & Page Builders:**
+
+* [Uncanny Automator](https://www.better-messages.com/docs/integrations/uncanny-automator/) — triggers and actions for chat events
+* [AutomatorWP](https://www.better-messages.com/docs/integrations/automatorwp/) — triggers and actions for chat events
+* [Crocoblock JetEngine Profile Builder](https://www.better-messages.com/docs/integrations/jet-engine/) — profile and chat shortcodes for JetEngine listings
+
+**Push & PWA:**
+
+* [FluentNotify](https://www.better-messages.com/docs/integrations/fluent-notify/) — web push through your own Firebase project
+* [OneSignal](https://www.better-messages.com/docs/integrations/onesignal/) — web push notifications
+* [Progressify PWA](https://www.better-messages.com/docs/integrations/progressify/) — install-to-home-screen prompts on the messenger
+
+**Universal Shortcode Builder — add chat to anything else:**
+
+Don't see your plugin or theme in the list? Better Messages ships a visual [Shortcode Builder](https://www.better-messages.com/docs/shortcodes/better_messages_live_chat_button/) at **WP Admin → Better Messages → Shortcodes** that lets you drop a Live Chat Button onto any custom post type, directory, marketplace listing, agent profile, or page builder block — **without writing PHP**. Point it at a sample post, choose how the target user is resolved (post author, postmeta-stored user ID, or a fixed inbox), set a thread strategy and label, and copy the generated shortcode. The same shortcode then works for every post of the same shape, with automatic per-post threading and an optional in-chat banner. Paste it into Gutenberg, Elementor, Bricks, Divi, or directly into a theme template.
+
+[Full list of integrations](https://www.better-messages.com/docs/category/integrations/)
+
+**Feel free to report any incompatibility or request more integrations — that is very important and helps improve Better Messages!**
+
+**WebSocket version:**
+
+WebSocket version is a paid option, you can get license key on our website.
+
+We use our dedicated servers to implement WebSocket communications between your site and users. Our servers are completely private and do not store or track any private data — all messages remain in your database.
+
+**Performance & Reliability:**
+
+* **Significantly** reduces the load on your server (up to 200x fewer requests)
+* **Instant** message delivery in realtime
+* Works with any hosting including shared hosting
+* No limits on concurrent connections or monthly active users
+
+**Video & Audio Calls:**
+
+* HD Video Calls (1-to-1)
+* HD Audio Calls (1-to-1)
+* Group Video Chats (up to 32 participants)
+* Group Audio Chats (up to 50 participants)
+* Screen Sharing in calls and group chats
+
+**Mobile Apps (Alpha):**
+
+* iOS Mobile App (build your own branded app) - Alpha
+* Android Mobile App (build your own branded app) - Alpha
+* Push notifications for calls and messages
+* VoIP notifications for incoming calls
+
+Note: Mobile apps are currently in alpha stage. Core functionality works, but some features may be limited or under development.
+
+**Realtime Features:**
+
+* Messages Delivery Status (sent, delivered, seen)
+* Typing, voice recording and file uploading activity indicators
+* Online/Offline presence indicator
+* User statuses (Online, Away, Do Not Disturb)
+* Mini Chats - chat windows anywhere on your site
+* Mini Conversations widget - list and continue recent threads from any page
+* Online-only filter and online-first ordering for the Users mini widget
+
+**Better Messages Cloud AI:**
+
+* Automatic message translation in 1-to-1 conversations — 53 languages, auto-detection
+* AI Content Moderation — 23 categories, custom rules, conversation context awareness
+* Voice message transcription — 99+ languages with auto-detection
+* No third-party API keys required — included with WebSocket license at no additional cost
+
+**Security & Encryption:**
+
+* Optional End-to-End Encryption (E2EE) — can be enabled at the website level and per conversation, messages and files encrypted in users' browsers with AES-256-GCM, server never sees plaintext
+* Local browser encryption (AES256) for offline message storage
+* Web Push Notifications (works even when the browser is closed)
+* All data encrypted in transit, so we can't read it on our servers
+
+**Support:**
+
+* Priority email support
+* Regular updates and new features
+
+[Why WebSockets are a game-changer?](https://medium.com/@monica.lucarini28/is-websocket-a-game-changer-aeaef68d1fba)
+
+**[Get WebSocket version license key](https://www.wordplus.org/downloads/bp-better-messages/) | [Terms of Use](https://www.wordplus.org/end-user-license-agreement/)**
+
+[Languages](https://translate.wordpress.org/projects/wp-plugins/bp-better-messages/)
+
+RTL layout is built into the plugin.
+
+You can translate plugin to your language with LocoTranslate or [participate in plugin translation](https://translate.wordpress.org/projects/wp-plugins/bp-better-messages/).
+
+== Frequently Asked Questions ==
+
+= Is Better Messages free? =
+
+Yes — install the free version from WordPress.org. It supports private and group conversations, chat rooms, file sharing, oEmbed previews, smart-batched email notifications, role-based access, guest chat, and the standard messenger feature set. The WebSocket version is paid and unlocks instant delivery, one-on-one and group voice / video calls, AI Chat Bots, AI Content Moderation, AI Message Translation, Voice Message Transcription, web push, and end-to-end encryption.
+
+= Which WordPress plugins does Better Messages integrate with? =
+
+35+ native integrations across community platforms (BuddyPress, BuddyBoss Platform, PeepSo, Ultimate Member, FluentCommunity, SureDash, ProfileGrid, UsersWP, WP User Manager), LMS (LearnDash, LearnPress, Tutor LMS, MasterStudy LMS), e-commerce (WooCommerce — pre-sales and order support chat with contact buttons on product, cart, checkout, and order pages), multi-vendor marketplaces (Dokan, WCFM, WC Vendors, MultiVendorX), listings and directories (HivePress, Directorist, GeoDirectory, Classified Listing, Motors, WP Job Manager), real estate themes (Houzez, RealHomes), forums (wpForo, bbPress), gamification (GamiPress, MyCRED), automation (Uncanny Automator, AutomatorWP), page builders (Crocoblock JetEngine), and push / PWA (OneSignal, Progressify). If your plugin isn't listed, the built-in visual Shortcode Builder lets you add a Live Chat Button to any custom post type without writing PHP. See the [full list of integrations](https://www.better-messages.com/docs/category/integrations/).
+
+= Does it support group conversations? =
+
+Yes — first-class group chats with shared history, mentions, reactions, file uploads, replies, edit / delete / forward, and group voice / video calls (WebSocket version). Group chats can be auto-paired with BuddyPress / BuddyBoss / PeepSo / Ultimate Member / FluentCommunity groups, with members joining and leaving the chat in sync with the source community group.
+
+= Can unregistered visitors (guests) chat? =
+
+Yes — Guest Chat lets unregistered visitors join chat rooms, message vendors on marketplaces, ask questions on directory listings, or chat with site support. Guests enter a display name (and optionally an email), then participate as a guest user. Their thread history is preserved if they later register.
+
+= Does it support voice and video calls on WordPress? =
+
+Yes (WebSocket version) — one-on-one and group voice / video calls live inside the messenger thread, not as a separate Zoom / Whereby integration. Hosted media relay is included with the WebSocket license, no separate Twilio account, no Daily / Whereby subscription, no Zoom developer plan. Calls are full-screen on mobile and picture-in-picture on desktop.
+
+= Is Better Messages GDPR-compatible? =
+
+Yes. All message data is stored only in your WordPress database. The WebSocket cloud relay is blind to message content — it routes encrypted events but does not read, store, or inspect what passes through. Better Messages also integrates with WordPress's built-in Personal Data Export and Erasure tools. For sites with stricter data-sovereignty requirements (GDPR Article 9, HIPAA-adjacent, regulated-data workloads), a self-hosted plan is available — contact support.
+
+= Does it have AI features? =
+
+Yes (WebSocket version, AI add-on). AI Chat Bots (OpenAI, Anthropic Claude, Google Gemini) act as full participants in any thread, with custom system prompts and per-bot points charging via GamiPress / MyCRED. Better Messages Cloud AI provides AI Content Moderation (23+ categories including spam, scam, doxxing, contact sharing), AI Message Translation (53 languages with auto-detection), and Voice Message Transcription (99+ languages) — all included with the WebSocket license, no third-party API key required.
+
+= Does it have native iOS and Android apps? =
+
+Yes — Better Messages ships native iOS and Android mobile apps built on Capacitor, with push notifications, real-time delivery, voice / video calls, and full messenger feature parity with the web. White-label rebuild is available for sites that want their own branded app on the App Store / Play Store under their own developer accounts.
+
+= Can I translate the messenger interface to my language? =
+
+Yes — Better Messages is fully translatable through standard WordPress translation tools (Loco Translate, WPML, Polylang) using the `bp-better-messages` text domain. Ships with 30+ community translations. Contribute or improve a translation at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/bp-better-messages/).
+
+= Does it support end-to-end encryption? =
+
+Yes (WebSocket version). End-to-end encryption is enabled per thread — messages and file attachments are encrypted in the sender's browser with AES-256-GCM before transmission, stay encrypted at rest in the database, and decrypt only in the recipient's browser. The server stores ciphertext only, no admin, host engineer, or attacker with database access can read the message content of an E2E thread.
+
+= Where can I find detailed documentation? =
+
+The complete documentation, integration guides, REST API reference, hooks reference, video tutorials, and 80+ blog posts are at [www.better-messages.com](https://www.better-messages.com/).
+
+== Installation ==
+
+1. Upload the plugin files to the `/wp-content/plugins/bp-better-messages` directory, or install the plugin through the WordPress plugins screen directly.
+1. Activate the plugin through the 'Plugins' screen in WordPress
+1. Use the Settings -> Better Messages to configure the plugin
+
+== Screenshots ==
+
+1. Real-time private messaging thread with group conversation, file sharing, reactions, and emoji
+2. Embedded video and link previews — YouTube, Vimeo, Spotify, and 20+ oEmbed providers
+3. Conversations inbox with unread badges, pinned chats, and full-text search across messages
+4. Start a new conversation with recipient search and friends list
+5. Real-time typing indicator and online presence (WebSocket version)
+6. On-site toast notifications for new messages — visible anywhere on your WordPress site
+
+== Changelog ==
+
+Better Messages 3.0 is coming soon — try it on the [demo](https://www.wordplus.org/demo.php) site and send your feedback to support.
+
+= 2.15.32 =
+* Chat rooms and conversations can now be exported as a transcript — plain text, a web page or a CSV spreadsheet
+* Push notifications can now be delivered through [FluentNotify](https://www.better-messages.com/docs/integrations/fluent-notify/), using a Firebase project you control
+* Fixed a mini chat not opening for a chat room after the full screen view had been opened and closed
+* Fixed incoming call notifications being hidden behind the full screen view, leaving no way to answer
+* Added [`get_group_call_participants`](https://www.better-messages.com/hooks/php-functions/#get_group_call_participants) PHP function — read how many people are in a conversation's group video or audio call
+* Added [`BetterMessages.getGroupCallParticipants()`](https://www.better-messages.com/hooks/js-functions/#getGroupCallParticipants) JavaScript function — the same counts on the page, over the WebSocket, with no request to your own server
+* Added [`better_messages_group_call_status`](https://www.better-messages.com/hooks/js-actions/#better_messages_group_call_status) JavaScript action — fires whenever a group call's participant count changes
+* Added [`BetterMessages.subscribeGroupCallStatus()`](https://www.better-messages.com/hooks/js-functions/#subscribeGroupCallStatus) and [`unsubscribeGroupCallStatus()`](https://www.better-messages.com/hooks/js-functions/#unsubscribeGroupCallStatus) — watch the live count of any chat room, including one the visitor has not joined
+* Added [`better_messages_group_call_participants_cache_time`](https://www.better-messages.com/hooks/php-filters/#better_messages_group_call_participants_cache_time) PHP filter — how long a group call participant count is cached
+* Added [`better_messages_fluent_notify_integration`](https://www.better-messages.com/hooks/php-filters/#better_messages_fluent_notify_integration) PHP filter — return `false` to disable the FluentNotify integration
+* Other minor bugfixes and improvements
+
+= 2.15.30 - 2.15.31 =
+* Chat attachments are no longer listed by the WordPress media API
+* Fixed guests being counted as BuddyPress members, which could report hundreds of members on a site with only a handful registered — updating clears the records already left behind
+* Fixed a **Send Message** button in a members or friends list on a BuddyPress or Youzify profile page opening a conversation with the profile owner instead of the member it belongs to
+* Fixed the **Create encrypted conversation** button being cut off at the bottom of a mini chat, with no way to scroll down to reach it
+* Member and online counts in the chat rooms list no longer read "1 members" for a single member
+* Presence-based chat rooms no longer carry an **Open** label in the chat rooms list
+* The **User Inbox** block is now called **Messages**, and the settings that spoke of an "inbox" name the messages page or the conversation list instead
+* Other minor bugfixes and improvements
+
+= 2.15.29 =
+* Fixed the messenger not loading at all on a site whose Ultimate Member Groups extension is too old for the installed Ultimate Member — the extension never starts up in that pairing, and the conversations list stayed permanently empty
+* An Ultimate Member group with no picture of its own now shows a group marker, in place of an image that had been failing to load since the service hosting it shut down
+* Fixed a chat room with no picture showing the generic person avatar in the chat rooms list, which made it look like a member — presence-based rooms, which keep no stored members, hit this every time
+* A link to a chat room now opens the Chat Rooms tab only when that room is not in the conversations list — a room left in the inbox opens there, next to everything else the member is talking in
+* Fixed the settings button missing from the messenger on phones — a site whose mobile tab bar comes from Chat Rooms, Users or AI Bots rather than Friends or Groups had no way to reach user settings there
+* Fixed line breaks vanishing from messages typed over several lines when Enter starts a new line instead of sending — browser extensions that tag page elements, such as Bitdefender, were collapsing them into one run-on line
+* Names decorated by the site keep that decoration in profile tooltips, as they did before 2.15.28 — only the avatar description, which is read aloud by screen readers, takes the name on its own
+* Fixed a name decorated by the site through the username filters losing that decoration in the conversations and users lists — on a phone those lists are most of the messenger
+* Fixed the confirmation for removing a participant, or for changing who moderates a conversation, spelling out the raw image markup of a badge the site attaches to member names — a PeepSo VIP icon printed as markup in the dialog, and in the notice that followed, in place of the plain name
+* Fixed a desktop notification title breaking into placeholder text when the sender carries such a badge
+* The **Messages Window Roundness** setting now also shapes the buttons inside the messenger and the name badges carried by the system messages and mentions, which stayed square whatever the setting was
+* Other minor bugfixes and improvements
+
+= 2.15.28 =
+* Added **Remember Last Tab** at Settings → Mini Widgets → Layout — the messenger reopens on the tab each member used last, the way the mini widgets already do
+* Users can now be given control over more of their own messenger — how Enter sends a message (**Send on Enter Control**, Settings → Messaging), whether the new message popup appears (**Popup Notification Control**, Settings → Notifications), and the sound played when they send one
+* Sound switches are no longer offered to users for a sound that is silenced site-wide
+* Fixed a "Send message" link from a forum or profile opening the side panel on the chat rooms list instead of the conversations list
+* Fixed the call restriction at Settings → Calls having no effect on guests — calls are now refused for every restricted role, not only hidden
+* Fixed **Auto-Delete Old Messages** leaving an unread badge that could never be cleared, and conversations now refresh once the cleanup has run instead of keeping removed messages on screen
+* Fixed guests losing their [end-to-end encryption](https://www.better-messages.com/docs/websocket/e2e-encryption/) keys on every page load — a guest was asked for the password again on each visit
+* Fixed the report reason arriving untranslated in the moderation email
+* Fixed the sidebar collapse button doing nothing when **Compact Mode** was set to Always Expanded or Always Compact
+* Fixed a name decorated by the site, such as a role badge, repeating itself in the avatar description and the profile tooltip
+* Fixed a prefilled message on the new conversation screen being inserted as HTML instead of plain text
+* Other minor bugfixes and improvements
+
+= 2.15.27 =
+* Added support for the **gpt-image-2** image generation model in [AI chat bots](https://www.better-messages.com/docs/features/ai-chat-bots/)
+* Added built-in pricing for the GPT-5.5 and GPT-5.6 models, and fixed gpt-5.4-mini / gpt-5.4-nano replies being charged at the full gpt-5.4 price
+* The **Context Messages Limit** of an [AI chat bot](https://www.better-messages.com/docs/features/ai-chat-bots/) now also applies to OpenAI bots in one-to-one conversations, keeping long chats from getting more expensive with every message
+* Fixed sending in a chat room getting slower with every member — in a room with tens of thousands of members a sticker took a minute to appear for the sender
+* Fixed the [AI chat bot](https://www.better-messages.com/docs/features/ai-chat-bots/) model list offering models that cannot answer messages
+* Fixed a bot whose model is no longer available answering with a generic error instead of saying the model needs to be changed
+* Fixed the title and the YouTube logo on a shared video doing nothing when clicked
+* Fixed shared videos not responding to clicks inside [mini chats](https://www.better-messages.com/docs/websocket/mini-chats/) — they now open from a poster with a play button
+* Fixed **Privacy-friendly oEmbeds** rendering a broken placeholder with the video title spilled into the message as text
+* Video placeholders now start playback on the first tap, without a second click on the play button
+* Fixed conversation list previews of video messages sometimes showing raw placeholder text
+* Fixed the Conversations tab being listed last at Settings → Mini Widgets → Layout
+* Fixed the unread counter on tabs covering the icon when tab labels are shown, and being unreadable in dark mode
+* Stopped themes from reshaping the messenger's own input fields — the side panel search box stays readable in dark mode
+* Fixed the page appearing extremely tall while the messenger loads and then jumping once it is ready — the loading placeholder now fits the window exactly like the loaded messenger, including with **Max Height** set to a large value like 9999
+* Renamed the **Fixed Header Height** setting to **Window Height Offset**, as it reserves window space for any fixed element on the page, not only a sticky header
+* Other minor bugfixes and improvements
+
+= 2.15.26 =
+* Added [`better_messages_push_notification`](https://www.better-messages.com/hooks/php-filters/#better_messages_push_notification) PHP filter — change the link, title and text of push notifications on every delivery path
+* Added [`better_messages_mobile_push_content`](https://www.better-messages.com/hooks/php-filters/#better_messages_mobile_push_content) PHP filter — change the wording of push notifications sent to the [native mobile app](https://www.better-messages.com/docs/category/mobile-app/)
+* The messenger now opens on whichever tab is placed first at Settings → Mini Widgets → Layout, and the Conversations tab is now sortable like every other tab
+* The collapsed side panel now keeps every tab usable as a vertical icon column, and on windows too narrow for the panel the tabs move to a strip at the top of the messenger
+* Chat rooms now show unread and mention counters in the [chat rooms list](https://www.better-messages.com/docs/features/chat-rooms/)
+* The Messages tab of the side panel and the mobile tab bar now shows an unread counter, configurable at Settings → Mini Widgets → Conversations
+* The open conversation is now highlighted in every side panel list
+* Fixed moderation in [presence-based chat rooms](https://www.better-messages.com/docs/features/chat-rooms/#chat-room-types) — muting, banning and appointing moderators no longer fail with a permissions error, and bans and mutes are now enforced
+* Fixed the muted and banned lists of a conversation returning expired bans and restrictions of other conversations
+* Fixed the page scrolling to the chat on every conversation switch made from inside the messenger
+* Fixed the **Participants List Order** setting being ignored by the online users sidebar and the participants list of presence-based rooms
+* Fixed online counters not including the viewer right after logging in
+* Fixed the browser tab title being emptied when an SEO plugin or theme outputs the title tag after the plugin scripts
+* Fixed starting an [end-to-end encrypted](https://www.better-messages.com/docs/websocket/e2e-encryption/) conversation failing with a "not on your friends list" error when messaging was restricted to friends or followers
+* Fixed a new end-to-end encrypted conversation losing its encryption when the first message was held by [pre-moderation](https://www.better-messages.com/docs/features/pre-moderation/) — encrypted conversations now always skip the moderation queue
+* Fixed [AI chat bot](https://www.better-messages.com/docs/features/ai-chat-bots/) replies occasionally left as unformatted, cut-off or garbled text after streaming finished, most often in the [native mobile app](https://www.better-messages.com/docs/category/mobile-app/)
+* Fixed tapping a shared YouTube or Vimeo video navigating the page to the video site instead of playing it — video players are now sandboxed, adjustable with the [`better_messages_embed_sandbox`](https://www.better-messages.com/hooks/php-filters/#better_messages_embed_sandbox) PHP filter
+* Fixed links typed with a capitalised address, such as the `Https://` phone keyboards produce, not being replaced by their preview
+* Fixed shared videos refusing to play in the [mobile app](https://www.better-messages.com/docs/category/mobile-app/) on iPhone and iPad — video services now require the address of the embedding page, which an app cannot provide, so players are loaded through a small page served from your own site
+* Fixed a conversation opening as an empty messenger when one of its messages quoted HTML or JSX source code, most often an [AI chat bot](https://www.better-messages.com/docs/features/ai-chat-bots/) reply — code in messages is now always shown as text
+* User statuses, call messages and end-to-end encryption notices of the WebSocket version are now translatable on WordPress.org
+* Other minor bugfixes and improvements
+
+= 2.15.25 =
+* Added [`better_messages_thread_header_actions`](https://www.better-messages.com/hooks/js-filters/#better_messages_thread_header_actions) JavaScript filter — the conversation header buttons (calls, minimize, maximize, the More menu) are now built as a single filterable list, so custom buttons can be added at any position and the built-in ones can be reordered, removed or replaced. Until now the header had no supported extension point: a button inserted into it by hand was moved or removed again whenever the header re-rendered. Custom buttons pick up the styling of the built-in ones, and the same filter also runs for mini chat headers
+* Added [`better_messages_fluent_community_group_chat_members`](https://www.better-messages.com/hooks/php-filters/#better_messages_fluent_community_group_chat_members) and [`better_messages_fluent_community_course_chat_members`](https://www.better-messages.com/hooks/php-filters/#better_messages_fluent_community_course_chat_members) PHP filters — exclude specific users from the automatic membership sync of [FluentCommunity](https://www.better-messages.com/docs/integrations/fluentcommunity/) Space and Course group chats: user IDs removed by the filter are taken out of the chat by the sync itself and are no longer re-added by later enrollment events
+* Fixed YouTube videos shared in messages staying locked inside the message bubble on iPhone and iPad — tapping one now opens the full screen player again, as it did before YouTube changed the default playback behaviour of its embeds
+* Fixed link previews showing raw HTML codes such as `&amp;` in titles, and dropping the thumbnail when the image address contained one
+* Link previews now also find the page title when it is spread over several lines or carries attributes, and can no longer be spoofed by markup hidden inside a page's scripts
+* The minimum required WordPress version is now 6.3, matching what the Better Messages blocks have needed since they were introduced
+* Added **Button Icon** setting at Settings → Mobile → Floating Chat Button — choose a preset icon or paste your own SVG for the floating chat button on mobile, which previously always used the built-in messages icon with no way to change it
+* Fixed the "Chatting as" persona banner in the Houzez and RealHomes integrations briefly appearing to the other side of the conversation and vanishing from the persona side's own view while messages were delivered in the WebSocket version — viewer-specific conversation details are no longer part of the shared realtime payloads
+* Other minor bugfixes and improvements
+
+= 2.15.20 - 2.15.24 =
+* Added [**Chat Room Moderators**](https://www.better-messages.com/docs/features/chat-rooms/#moderators) — assign per-room moderators in the chat room editor: moderators can remove, mute and ban participants of their room, can reply while the room is closed, and see the participants list even when it is hidden from regular members
+* Added **Moderators can add participants** per-room setting — moderators get an "Add new participants" action right in the chat interface, so room membership can be managed without contacting site administrators
+* Added [**Presence-based chat rooms**](https://www.better-messages.com/docs/features/chat-rooms/#chat-room-types) (WebSocket version) — a new chat room type where participants are only the users currently in the room: closing the page or navigating away removes them immediately, no membership is stored, and the participants list always shows who is really present
+* Added per-room **Group video calls** and **Group audio calls** toggles to chat room settings — disable group calls in specific chat rooms while keeping them enabled globally
+* Added [**Website Context**](https://www.better-messages.com/docs/features/ai-content-moderation/#website-context) setting to AI Content Moderation — describe what your website is used for and Better Messages Moderation AI will judge messages by your community norms, fixing overly aggressive moderation on dating sites and similar communities
+* Added [**Roles that can send Bulk Messages**](https://www.better-messages.com/docs/features/mass-messaging/#permissions) setting — allow selected roles (for example HR or communications staff) to send bulk messages from the Administration page without full administrator access: they see and manage only their own bulk messages and cannot send on behalf of another user
+* Added [**Roles that can access Administration**](https://www.better-messages.com/docs/features/site-moderators/) setting — grant selected roles the Administration page and site-wide moderation powers without full administrator access, replacing the need for a role editor plugin to assign the moderation capability
+* Added [**Markdown support**](https://www.better-messages.com/docs/features/markdown-support/) to **Bulk Messages** — the bulk message editor now understands the same Markdown syntax as regular chat messages, so headings, bullet and numbered lists and links typed in the editor are delivered formatted
+* Site administrators can now add participants to any regular chat room directly from the chat interface
+* Fixed chat room moderators being unable to send messages in closed chat rooms
+* Chat room moderators are never removed by **Auto exclude users** or **Auto-remove inactive participants**
+* Fixed the [**Chat Rooms**](https://www.better-messages.com/docs/features/chat-rooms/) list showing only the first 100 rooms — rooms now load page by page as you scroll, search covers every room you have access to, and rooms you were added to are no longer missing from the list on sites with many chat rooms
+* Fixed the [**Browser push notifications**](https://www.better-messages.com/docs/websocket/web-push/) opt-in missing from the messenger user settings on sites where the email notification interval was set to 0 and **Sound Notification Control** was disabled, leaving users with no way to subscribe to web push
+* Added [`better_messages_onesignal_integration`](https://www.better-messages.com/hooks/php-filters/#better_messages_onesignal_integration) PHP filter — return `false` to fully disable the [OneSignal integration](https://www.better-messages.com/docs/integrations/onesignal/), including the script which associates WordPress user IDs with OneSignal subscriptions
+* Added **Open online users list by default** per-room setting (WebSocket version) — when the online users sidebar is enabled, it can open automatically when users enter the chat room on desktop
+* Added [**GTranslate**](https://www.better-messages.com/docs/integrations/gtranslate/) integration — on GTranslate paid plans the messenger interface now follows the language of the page the visitor is on, instead of staying in the site default language on every translated sub-domain or sub-directory
+* WebSocket version now stops AJAX fallback polling by default — when a visitor's WebSocket connection cannot be established, their browser makes a single sync request per page load instead of polling the server every few seconds. The new [**Continuous Fallback Mode**](https://www.better-messages.com/docs/websocket/continuous-fallback-mode/) setting restores continuous fallback polling for the rare setups that need it, such as audiences behind country-level firewalls that block WebSocket traffic
+* Improved settings page mobile menu layout
+* Other minor bugfixes and improvements
+
+= 2.15.13 - 2.15.19 =
+* Added [**Automatic Message Cleanup**](https://www.better-messages.com/docs/features/chat-rooms/#automatic-message-cleanup) for chat rooms
+* Added [**Participants List Order**](https://www.better-messages.com/docs/features/chat-rooms/#participants-list-order) setting at Settings → Messaging → Group Conversation Settings
+* Better Messages → Administration moderation area now showing message timestamps in the site timezone from Settings → General
+* Fixed user badge icons (e.g. PeepSo VIP icons) showing as HTML code instead of images in WP Admin user lists
+* Fixed user badge icons (e.g. PeepSo VIP icons) appearing as raw HTML code in moderation and report email notifications
+* Fixed encrypted conversations staying locked forever after a participant reset their encryption keys — the conversation key is now reliably re-shared as soon as any other participant visits the site or unlocks their encryption keys
+* Fixed MasterStudy mobile bottom menu bar showing through the full-screen messenger on the student dashboard
+* Fixed Better Messages mobile floating chat button and new-message notification being hidden behind the MasterStudy bottom menu bar on account pages
+* Fixed SureDash integration message button on member profiles opening the messages page without starting a conversation with the selected member
+* PeepSo integration: members banned in PeepSo can no longer send messages or start new conversations in Better Messages
+* PeepSo integration: group chats are now accessible to group members only
+* Fixed messenger failing to load with error 500 — infinite loop when an encrypted conversation awaiting encryption key sharing was deleted or no longer accessible
+* Update Freemius SDK to 2.13.4
+* Banned members in chat room cant join group video and audio calls anymore
+* Added [**Weglot**](https://www.better-messages.com/docs/integrations/weglot/) integration — the messenger interface now automatically follows the current Weglot language on multilingual sites
+* Added `better_messages_i18n_locale` filter to control which language the messenger interface loads
+* Fixed fatal PHP error (allowed memory size exhausted) when opening or starting a private conversation on sites with a very large accumulated history of no-reply bulk messages
+* Fixed the LMS **Courses** tab (LearnPress, LearnDash, MasterStudy, TutorLMS, FluentCommunity) not showing in the mobile tab bar even when enabled — it now appears on mobile devices as it does on desktop
+* Fixed MOV videos not playing in Safari on iPhone, iPad and macOS when **File Protection Proxy** is enabled
+* Fixed OneSignal JavaScript error
+* Other minor bugfixes and improvements
+
+= 2.15.9 - 2.15.12 =
+* Migration to new [Roadmap](https://www.better-messages.com/roadmap/)
+* Added **Shortcode Builder** — visual admin tool at Settings → Shortcodes that configures the [`[better_messages_live_chat_button]`](https://www.better-messages.com/docs/shortcodes/better_messages_live_chat_button/) shortcode without code.
+* Added initial [BuddyBoss ReadyLaunch theme](https://www.better-messages.com/docs/integrations/buddyboss/#buddyboss-readylaunch) integration
+* Added new BuddyBoss settings group at Better Messages → Settings → Integrations → BuddyPress — separate **Full-page messenger**, **Full Width**, **Page Title**, and **Hide Mini Widget on Messages Page** toggles for the ReadyLaunch theme and the classic BuddyBoss Theme
+* Fixed FluentCommunity integration script throwing `Cannot read properties of null` on non-FluentCommunity pages
+* Hide the messenger Minimize button on the FluentCommunity `/messages` route — the mini widgets are hidden there, so minimize had no surface to restore from
+* Fixed image download from the lightbox opening a stuck Quick Look preview when Better Messages is used in an iPhone PWA — now uses the native iOS share sheet
+* Fixed guest authentication being silently dropped after long tab-idle periods in some websites
+* Fixed BuddyBoss user-dropdown My Messages item not showing the unread counter on sites where the BuddyBoss Theme renders the user dropdown from a WordPress nav menu instead of the standard admin-bar nodes
+* Fixed MultiVendorX vendor dashboard "Messages" sidebar link missing on some sites
+* Fixed in-thread message Delivered tick rendering white in dark mode
+* Added Settings → Integrations → WooCommerce → MultiVendorX toggle "Hide Messages tab when vendor disables live chat" — off by default
+* Fixed the "Sound Notification Control" setting not hiding the sound mute toggle from user settings when disabled
+* Fixed the [Guest Messages Page](https://www.better-messages.com/docs/features/guest-access/#guest-messages-page) rendering the raw `[bp-better-messages]` placeholder instead of the messenger when no main Messages Location page is set
+* Fixed user avatars and names not loading for not-yet-registered guests in chat rooms and the mini widget
+* Other minor bugfixes and improvements
+
+= 2.15.8 =
+* Fixed pages with the slug `messages` returning 404 on sites that use WooCommerce as the Messages Location
+* Fixed the compact-sidebar hover tooltip lingering on the conversation screen after tapping an avatar on mobile
+* Added [Guest Messages Page](https://www.better-messages.com/docs/features/guest-access/#guest-messages-page) setting
+* Added per-thread participant override mechanism — addons can display a participant under a different name, avatar and profile URL inside one specific thread without touching their real WordPress identity elsewhere. Same WP user can wear different identities in different threads at the same time. See the [developer guide](https://www.better-messages.com/docs/development/guides/per-thread-fake-users/) for the reusable pattern
+* Added initial [Houzez Real Estate Theme](https://www.better-messages.com/docs/integrations/houzez/) integration
+* Added initial [RealHomes Real Estate Theme](https://www.better-messages.com/docs/integrations/realhomes/) integration
+* Other minor bugfixes and improvements
+
+= 2.15.7 =
+* Added Send Message, Audio Call and Video Call buttons to the [PeepSo user hovercard](https://www.better-messages.com/docs/integrations/peepso/#user-hovercard)
+* Added [emoji search translations](https://www.better-messages.com/docs/features/emoji-selector/#multilingual-search) — admin can download per-locale annotations so emoji picker search works in 30+ languages (e.g. German "gesicht" finds 😀)
+* Optimized emoji and stickers data delivery
+* Fixed guest users seeing their own name and avatar in one-on-one conversation headers, mini chat heads, and thread list previews instead of the other participant in some cases
+* Fixed MasterStudy LMS account mobile bottom menu overlapping the chat on the Messages page in full-screen mobile view
+* Other minor bugfixes and improvements
+
+= 2.15.6 =
+* Added JavaScript filter slots in the guest authentication screen — [`better_messages_auth_required_top`](https://www.better-messages.com/hooks/js-filters/#better_messages_auth_required_top), [`better_messages_auth_required_between`](https://www.better-messages.com/hooks/js-filters/#better_messages_auth_required_between), and [`better_messages_auth_required_bottom`](https://www.better-messages.com/hooks/js-filters/#better_messages_auth_required_bottom) — for injecting custom HTML into the pre-chat popup, mini-widget banner, and full messages page wall
+* Added live unread counter badge to the BuddyBoss Theme profile dropdown Messages item
+* Added Audio Call and Video Call buttons to the members directory and group member rows for both BuddyPress (Nouveau theme) and BuddyBoss Platform
+* Added [`better_messages_group_call_join_custom_error`](https://www.better-messages.com/hooks/php-filters/#better_messages_group_call_join_custom_error) PHP filter for blocking group audio/video call join with a custom error message, mirroring the existing [`better_messages_call_join_custom_error`](https://www.better-messages.com/hooks/php-filters/#better_messages_call_join_custom_error) filter for 1-to-1 calls
+* Settings → Integrations tab label and section titles now read "BuddyBoss" instead of "BuddyPress" when the BuddyBoss Platform is active
+* Improved the bbPress reply Private Message link layout in BuddyBoss Theme
+* Added initial [Motors – Car Dealer, Classifieds & Listing](https://www.better-messages.com/docs/integrations/motors/) integration
+* Added initial [Classified Listing](https://www.better-messages.com/docs/integrations/classified-listing/) integration
+* Other minor bugfixes and improvements
+
+= 2.15.5 =
+* Added per-role filter for the auto-remove inactive chat room participants feature, so an admin can target guests or other specific roles only and leave members untouched
+* Fixed new chat room participants could be remove if auto-removal option is enabled for users who did not wrote any message in the chat room
+* Fixed online participant count in the chat rooms list not updating in real time when a user joined or was added to a room
+* Fixed some group chats threads could reappear after the admin deleted them
+* Other minor bugfixes and improvements
+
+= 2.15.3 =
+* Added [System Messages](https://www.better-messages.com/docs/features/system-messages/)
+* Added per-role restrictions for group calls — Settings → Group Calls → Group Call Restrictions lets admins block specific WordPress roles from starting and / or joining group audio and video calls
+* Group calls are now available to guest visitors
+* Added possibility to auto-remove inactive chat room participants
+* Added possibility to enable group audio/video calls button in mini chats
+* Added support for [LearnDash Instructor Role](https://www.learndash.com/instructor-role/) add-on
+* Added shortcodes for every Send Message / Message Instructor button in the GeoDirectory, Directorist, LearnDash, LearnPress, Tutor LMS and MasterStudy LMS integrations, so they are possible to use with page builder. Check Integrations tab in plugin settings to find appropriate shortcode
+* Reorganized Settings → General tab — added a Quick Actions dashboard with shortcuts to the Chat Rooms, AI Chat Bots and Administration screens and added easy access to detected integrations
+* End to end encryption is moved to Messaging settings tab
+* Fixed PHP 8.5 deprecation notices
+* Fixed sticker images pointing to the previous site URL after a domain migration
+* Fixed guest visitors being redirected to wp-login after starting a chat from a WooCommerce
+
+= 2.15.2 =
+* Added initial [MasterStudy LMS](https://www.better-messages.com/docs/integrations/masterstudy-lms/) integration
+* Added initial [Directorist](https://www.better-messages.com/docs/integrations/directorist/) integration
+* Added initial [GeoDirectory](https://www.better-messages.com/docs/integrations/geodirectory/) integration
+* Remake database displaying in plugin settings which make it easier to fix database if something not migrated properly
+* LMS course chats are now their own thread type in database
+* Added "Email Notifications" and "Push Notifications" toggles for LMS course chats under Settings → Integrations → LMS → Shared Course Settings
+* Other minor bugfixes and improvements
+
+= 2.15.1 =
+* Added initial [LearnPress](https://www.better-messages.com/docs/integrations/learnpress/) LMS integration
+* Added initial [Tutor LMS](https://www.better-messages.com/docs/integrations/tutor-lms/) integration
+* Added initial [LearnDash](https://www.better-messages.com/docs/integrations/learndash/) LMS integration
+* Added [MultiVendorX 5.0+](https://www.better-messages.com/docs/integrations/multivendorx/) integration alongside the existing < 5.0 support
+* Older MultiVendorX 4.x sites are unaffected — the previous integration continues to load on those installations
+* Added FluentCommunity Courses integration
+* Added a dedicated [Courses widget](https://www.better-messages.com/docs/features/mini-widgets/) to the Mini Widgets which will be showing user enrolled courses in LMS
+* Added "Maximum Message Length" setting (Settings → Messaging) — cap the number of characters allowed in each message
+* Other minor bugfixes and improvements
+
+= 2.15.0 =
+* Added three new [widgets](https://www.better-messages.com/docs/features/mini-widgets/): **Users** (browse and message any site member, with optional online-only filtering, online-first ordering, sort by last activity or registration date, and three display modes — all / by role / hand-picked), **AI Bots** (start or continue conversations with configured AI chat bots), and **Chat Rooms** (browse public chat rooms with optional online-count badge)
+* Redesigned the Settings → Mini Widgets page into per-widget sub-tabs, with each widget exposing its own icon picker, search-box toggle, role restrictions matrix (mini bar / side panel / mobile bar), and widget-specific options
+* Added "Hide Tab When Empty" toggle per widget — hides the Friends / Groups / AI Bots / Chat Rooms / Users tab entirely when the current user has nothing to show, instead of rendering an empty list
+* Added AI Chat Bot [welcome message](https://www.better-messages.com/docs/features/ai-chat-bots/#welcome-message) — bots can greet users with a configurable opening message and placeholder
+* Added dynamic [placeholders](https://www.better-messages.com/docs/features/ai-chat-bots/#placeholders) which allows to dynamically change ai chat bots system prompts and welcome messages
+* Renamed [`better_messages_open_ai_bot_instruction`](https://www.better-messages.com/hooks/php-filters/#better_messages_ai_bot_instruction) filter to `better_messages_ai_bot_instruction` since it applies to all AI providers, and added new `$thread_id` and `$message_id` arguments so callbacks can read the conversation context and the triggering user message — the old name remains available as a deprecated alias
+* Added per-message edit time limit — restrict how long users can edit their own messages after sending
+* Fixed fatal error when uploading attachments at the bulk messages screen
+* Fixed `hideParticipants` chat room setting being ignored when the attachments browser was enabled
+* Fixed stale sticker suggestions remaining visible in the composer after a sticker was sent
+* Fixed AI Chat Bots admin layout breaking on older PHP versions and removed a misleading missing-key error
+* Fixed sticker pack "Add language" button appearing when no remaining locales were available
+* Fixed reply form not being blocked for deleted conversations when PeepSo friendship filter was active
+* Fixed Private Message button still showing in chat room user list and message context menu when "Hide New Conversation Button" was enabled
+* Improved performance of reported-messages admin screen for sites with millions of messages — queries now scale cleanly instead of relying on transient caches
+* Other minor bugfixes and improvements
+
+= 2.14.16 =
+* Making Stipop Sticker provider legacy as it increased price significantly since initial integration
+* Added [built-in sticker packs system](https://www.better-messages.com/docs/features/stickers/) - create and manage your own sticker packs, with role-based access control and per-locale support
+* Added 8 pre-created sticker packs which can be installed from plugin settings
+* Added inline sticker suggestions — stickers are suggested as you type based on keywords if enabled in plugin settings
+* Rebuilt [GIF integration](https://www.better-messages.com/docs/features/giphy-integration/) into multi-provider system with support for GIPHY and Klipy providers — select your preferred provider in Settings → Integrations
+* Fixed pasted emojis being converted to WordPress emoji images in reply editor
+* Other minor bugfixes and improvements
+
+= 2.14.14 =
+* Added [WooCommerce integration](https://www.better-messages.com/docs/integrations/woocommerce/) — adds contact buttons on product, cart, checkout, and order pages with configurable placement and recipient
+    * Added Product Page contact button with 4 placement options (above/below summary, above/below add-to-cart) — works in both classic and block themes
+    * Added Order Page contact button on My Account → View Order
+    * Added Pre-purchase Help Button on cart and checkout pages
+    * Added automatic cart snapshot — when a customer starts a chat from cart or checkout, the contents of their cart are auto-posted as a rich message in the conversation.
+    * Added rich product cards in chat — plain WooCommerce product URLs pasted in any chat message are auto-expanded into rich cards with image, title, and price
+    * Fixed bug where saving plugin settings could wipe registered rewrite endpoints (WooCommerce, BuddyPress, Better Messages) until permalinks were manually re-saved
+* Removed hardcoded logo width and height in the email notifications template
+* Other minor bugfixes and improvements
+
+= 2.14.13 =
+* Added new "Floating Bubble" display style for mini widgets — replaces the classic bottom tab bar with a circular button that expands into a chat panel on click
+* Added "Bubble Chat Heads" option — shows recently closed conversations as avatar bubbles stacked above the floating bubble button (similar to Messenger chat heads), with hover tooltips showing thread name, time, and last message preview
+* Added Bubble Icon picker in admin settings
+* Added customizer controls for bubble button and chat head sizes and roundness
+* Added smooth open/close/transition animations for mini widgets, bubble panel, and chat heads (can be disabled in admin settings)
+* Fixed bug where photos uploaded from iOS could appear rotated in chat — caused by buggy EXIF orientation handling in iOS Safari's createImageBitmap
+* Fixed bug where the "Select Logo" button on the Email template settings page did nothing because the WordPress media library was not enqueued
+* Other minor bugfixes and improvements
+
+= 2.14.11 - 2.14.12 =
+* Added [Better Messages Translation AI](https://www.better-messages.com/docs/features/ai-message-translation/) — automatic message translation for 1-to-1 conversations
+* Added [Better Messages Transcription AI](https://www.better-messages.com/docs/websocket/cloud-ai/) — voice message transcriptions
+* Added Test [Callback URL](https://www.better-messages.com/docs/websocket/cloud-ai/#callback-url) button to the Settings page in the WebSocket version, which allows testing the callback URL for the Better Messages Cloud AI
+* Initial integration with [WordPress Abilities API](https://www.better-messages.com/docs/ai-mcp/ai-mcp-integration/), which allows using MCP and AI
+* Fixed bug with AI Chat Bots not allowing to select model if no global api key setting
+* Fixed bug with attachments being sent to previously opened conversation when using "Send now" button in the file uploader popup
+* Fixed bug where disabling End-to-End Encryption would lock users out of previously encrypted conversations and prevent starting new ones with the same participants when the Single Conversation Per Recipient option is enabled
+* Other minor bugfixes and improvements
+
+= 2.14.8 - 2.14.10 =
+* Initial release of Better Messages Cloud AI
+* Added [Better Messages Moderation AI](https://www.better-messages.com/docs/features/ai-content-moderation/) — included with WebSocket license at no additional cost, no third-party API keys required.
+    * Cloud-powered content moderation with extended categories, custom rules, and conversation context awareness
+    * Added AI moderation provider selection: choose between OpenAI Moderation API and Better Messages Moderation AI
+    * Added custom moderation rules — define your own rules in plain text (e.g. block contact sharing, promotions)
+    * Added conversation context for AI moderation — detect patterns like phone numbers split across multiple messages
+    * Added 10 new moderation categories for Better Messages AI: spam, scam/phishing, minor safety, contact sharing, profanity, impersonation, doxxing, drugs/alcohol, threats, commercial promotion
+* Translations now loaded as cacheable external file instead of inline scripts to make it more efficient
+* Added ability to open and close chat rooms
+* Added chat room management actions: duplicate, clear messages, remove all participants
+* Fixed PeepSo Notifications Popup overlapping Better Messages Popup
+* Fixed PeepSo Vip Icons displaying incorrectly in administration panel
+* Reworked reactions selector displaying as they became a bit jumpy, especially on mobile devices
+* Improved database reset detection and connection timeout for settings changes
+* Added FluentCommunity Spaces integration for groups widgets (mini widgets, side panel tabs, mobile tabs)
+* It's now possible to find users by email in admin user search
+* Fixed PHP warning for undefined 'lang' key in mobile device registration
+* Improved SharedWorker reconnect, plugin updates no longer require page reload
+* Updated Freemius SDK to latest version
+* Other minor bugfixes and improvements
+
+= 2.14.7 =
+* Added new Privacy & GDPR settings page with compliance overview and privacy controls
+* Added self-hosted emoji sprites option — download emoji images to your server instead of loading from external CDN
+* Added Privacy-friendly oEmbeds — YouTube, Vimeo and other video embeds load only after user clicks
+* Added WordPress personal data export and erasure support (Tools → Export/Erase Personal Data)
+* Added suggested privacy policy text that adapts based on enabled features (Settings → Privacy)
+* Added option to delete file attachments when user requests data erasure
+* Added option to enable or disable Emoji Picker button
+* Added option to enable or disable automatic text emoticon to emoji conversion
+* Improved caching — scripts and resources that don't change between updates are now cached independently by the browser
+* Scripts and resources are now loaded on demand only when the feature is actually used
+* Added filter hooks for custom AI provider registration
+* AI Chat Bots will not be auto-removed from Group Conversations when members list syncing
+* Show "Voice message" fallback text when voice messages addon is disabled
+* Fixed mentions popup not closing when no matches found
+* Fixed voice message uploads returning 404 when file attachments disabled
+* Fixed E2E encrypted file uploads in new conversations
+* Fixed group member sync running for groups with chat disabled
+* Improved email template customization — preview now reflects all settings accurately
+* Fixed custom HTML email template not saving properly
+* Other minor bugfixes and improvements
+
+= 2.14.2 - 2.14.6 =
+* Added option to randomize filenames on upload to prevent Web Application Firewalls from blocking file uploads in some web hosts
+* Added double confirmation for message auto deleting setting to prevent accidental data loss
+* Improved integrations subtabs sorting — active plugins now appear first
+* Improved AI Digests with better context awareness and error logging
+* Improved video and image transcoding to prevent GIF animation loss
+* Fixed chat room moderators not recognized in group video call permissions (join, start, admin controls)
+* Fixed async chunk loading issues caused by browser caching after plugin updates
+* Fixed reactions selector overflowing bottom of viewport
+* Fixed image/video optimization output formats not saved to settings and not validated on upload
+* Fixed stale E2E encryption status when sending messages after switching threads
+* Fixed Ultimate Member directory message button missing target user ID
+* Fixed Chat Room block "Create new" link pointing to old post editor
+* Fixed messages location warning showing incorrectly for integration plugins
+* Fixed mentions with HTML badges (e.g. PeepSo verified icons) rendering as raw HTML instead of images
+* Fixed CSS issue for SVG icons in FluentCommunity Groups
+* Fixed Fluent Community mobile bottom menu not returning after closing keyboard on Chrome iOS with native button
+* Improved Fluent Community mobile bottom menu icon now navigating back to messages list when not at it
+* Other minor bugfixes, improvements and optimizations
+
+= 2.14.0 - 2.14.1 =
+* Completely rebuilt Settings page in WP Admin to make it more compact and easier to navigate while adding new features
+* Reworked GamiPress and myCRED addons into unified Points System with per-role pricing and balance display directly in Better Messages interface
+* AI Chat Bots: Added support for adding chat bots to group conversations and ability to respond when they are mentioned
+* AI Chat Bots: Added support for Anthropic (Claude) and Google Gemini providers alongside OpenAI
+* AI Chat Bots: Added conversation summarization and scheduled digests features for Group Conversations
+* AI Chat Bots: Added token usage tracking with cost estimation and ability to charge with MyCRED or GamiPress points
+* AI Chat Bots: Bots now appear as online users and show typing indicators while generating responses in WebSocket Version
+* AI Chat Bots: Added dedicated admin page for bot management
+* Added activity indicators for voice recording and file uploading in addition to typing indicator in WebSocket Version
+* Added Voice Messages settings tab with max recording duration, auto-delete, voice transcription and role restrictions
+* Added new Chat Rooms administration page in WP Admin
+* Added ability to force notification for tagged users even if muted the conversation
+* Added online users sidebar panel in Chat Rooms with toggle button
+* Added ability mute and unmute participant microphones in group video calls
+* Added ability to send voice messages when creating a new conversation
+* Added ability to customize order of tabs in mini widgets, side panel and mobile view
+* Added compatibility with the new Progressify plugin (wordpress.org version) alongside the legacy CodeCanyon version
+* Tested with WordPress 7.0 Beta
+
+= 2.13.0 - 2.13.1 =
+* Added optional End-to-End Encryption (E2EE) for private and group conversations (WebSocket version only)
+    * Can be enabled at the website level and optionally per conversation
+    * Messages encrypted in user browsers — server never sees plaintext
+    * AES-256-GCM encryption for messages and file attachments
+    * Password-protected key backup for multi-device access
+    * Key recovery if the user forgets an encryption password
+    * Automatic key distribution for new conversation participants
+* Added client-side image and video optimization for cross-browser compatibility and saving storage space
+    * Automatic image conversion to WebP, AVIF, or JPEG before upload
+    * Configurable image quality and max resolution
+    * Metadata stripping for privacy
+    * HEIC/HEIF automatic conversion for cross-browser compatibility
+    * Video format conversion to MP4 for universal playback
+* Added Compact Mode for Side Conversations List with auto and always compact options
+* Renamed "Combined View" to "Side Conversations List"
+* Fixed "Enable PeepSo Header at Messages Page" was not working after some updates
+* Other minor bugfixes, improvements and optimizations
+
+= 2.12.9 =
+* Added optional feature to enable messages forwarding
+* Reworked bulk messaging
+    * Moved bulk messaging to a dedicated WP Admin screen
+    * Added ability to attach files to bulk messages
+    * Moved bulk messaging sending to a background process instead of frontend processing
+    * Added ability to schedule bulk messages for later
+    * Added ability to pause, resume and cancel bulk jobs
+    * Added follow-up messaging to send additional messages into existing bulk conversations
+    * Added activity filter to target users active within or inactive for a specified number of days
+    * Added ability to send bulk messages as another user
+    * Added ability to send bulk messages to specific users
+    * Added ability to send bulk messages to group members (BuddyPress, PeepSo, Ultimate Member)
+    * Added send rate (batch size) control
+    * Added test/preview for bulk messages before sending
+* Added initial integration with [SureDash](https://www.better-messages.com/docs/integrations/suredash/)
+* Removed jQuery dependency from inline scripts
+* Fixed empty chat rooms to be properly shown in user inbox when user auto added to it
+* Added Thread ID indication and View in inbox button to Chat Rooms settings page in WP Admin
+* Other minor bugfixes, improvements and optimizations
+
+= 2.12.5 - 2.12.6 =
+* Added option to filter conversations list to show only unread conversations
+* Migrated WC Vendors and WCFM Add-ons to the core plugin. WCFM and WC Vendors Add-ons are now deprecated and will be removed, please deactivate them in your website if you are using them.
+* Updated OneSignal Integration code to support the latest OneSignal API changes
+* Mentions search now supports searching usernames with whitespace
+* Other minor bugfixes, improvements and optimizations
+
+= 2.12.2 - 2.12.4 =
+* Completely reworked Voice Recorder Add-on UX
+* Added Attachments browser feature which allows browsing all uploaded files in the conversation information panel
+* Added message draft autosave feature — unsent messages are automatically saved and restored when returning to a conversation, with a draft indicator shown in the conversations list
+* Added voice message transcription powered by OpenAI (requires OpenAI API key)
+* Added protect files with proxy feature to protect uploaded files from direct access with support for X-Sendfile, X-Accel-Redirect and LiteSpeed optimized serving
+* Added resumable file uploads for improved reliability on slow or unstable connections
+* Added option to switch between file upload method (Standard POST Upload or TUS (Resumable Upload)) as some hosting blocks TUS uploads with WAF
+* Improved upload directory structure with per-thread unique subfolders to improve security and keep original filenames
+* Other minor bugfixes and improvements
+
+= 2.12.0 - 2.12.1 =
+* Added AI Content Moderation powered by OpenAI Moderation API
+* Group Video & Audio Calls improvements:
+    * Added moderator controls: lock room, mute all participants, broadcast mode
+    * Added Promote to Speaker / Demote to Viewer controls in broadcast mode
+    * Added Raise Hand / Lower Hand feature for viewers in broadcast mode
+    * Added Lower All Hands button for moderators
+    * Added option to restrict who can start group calls (anyone or moderators only)
+    * Added default call mode setting (Participatory or Broadcast) in conversation settings
+    * Added group call settings section in conversation information panel
+    * Added visual speaker highlighting during group calls
+    * Improved microphone and camera device switching reliability
+* Replaced browser database engine with new lightweight custom solution for better performance and stability
+* Browser database and WebSocket connection is now shared across browser tabs via SharedWorker, improving performance and real-time sync
+* AI Moderation supports two modes: Hold for Review (messages require admin approval) and Flag Only (messages are sent but marked for admin review)
+* AI Moderation includes configurable sensitivity threshold, content category selection, and role-based bypass
+* AI Moderation supports image moderation in addition to text content
+* AI Flagged messages appear in the moderation panel alongside user-reported messages
+* Improved moderation notification emails with detailed reason information (AI moderation, first-time sender, blacklisted user)
+* AI Chat Bots: Added support for OpenAI reasoning models (o-series, GPT-5)
+* AI Chat Bots: Added Temperature, Max Output Tokens, and Reasoning Effort settings
+* Added Chat Room block for WordPress Block Editor (Gutenberg) with full screen auto-open option
+* Added option to hide participants count in chat room header
+* Improved rendering performance of the messages list, reducing unnecessary updates when receiving new messages
+* Improved auto-recovery when browser database is unexpectedly deleted
+* Fixed calls not starting in some cases
+* Fixed group video call crash when container has zero dimensions during initialization
+* Fixed AI Chat Bot error "You cannot send messages to this user"
+* Fixed scrollbar thumb direction in some browsers
+* Compatibility update for WordPress 6.2+ by replacing deprecated `get_page_by_title()` usage during activation
+* Other minor bugfixes and improvements
+
+= 2.11.0 - 2.11.1 =
+* Added ability to customize the email template for unread messages notifications in WP Admin
+* Added ability to add unsubscribe link to email notifications
+* Added ability to send test email notifications message from plugin settings page
+* Added Pre-Moderated Messages feature, which allows moderating messages before they are delivered to recipients
+    * Added ability to pre-moderate messages when the user did not have messages at website yet
+    * Added ability to enable moderation of new conversation by user role in plugin settings
+    * Added ability to enable moderation of new replies by user role in plugin settings
+    * Added ability to whitelist users from moderation in the administration screen
+    * Added ability to blacklist users, which enables force moderation of messages from them
+    * Added ability to set email list which will receive notifications about new messages for moderated or new message reports
+* Added options for admins to bypass words blacklist
+* Added initial support for new Dokan Vendor Dashboard UI
+* Removed Customizations tab from settings page, settings from that page moved to Messaging tab
+* Other minor bugfixes and improvements

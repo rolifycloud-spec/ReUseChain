@@ -1,0 +1,168 @@
+<?php
+namespace Jet_Engine_Dynamic_Tables;
+
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
+/**
+ * Main file
+ */
+class Plugin {
+
+	const PREVIEW_RENDER_FLAG = '_jet_engine_dynamic_table_preview';
+
+	/**
+	 * Instance.
+	 *
+	 * Holds the plugin instance.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @static
+	 *
+	 * @var Plugin
+	 */
+	public static $instance = null;
+
+	/**
+	 * Plugin components
+	 */
+	public $data;
+
+	/**
+	 * Instance.
+	 *
+	 * Ensures only one instance of the plugin class is loaded or can be loaded.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @static
+	 *
+	 * @return Plugin An instance of the class.
+	 */
+	public static function instance() {
+
+		if ( is_null( self::$instance ) ) {
+
+			self::$instance = new self();
+
+		}
+
+		return self::$instance;
+
+	}
+
+	/**
+	 * Register autoloader.
+	 */
+	private function register_autoloader() {
+		require JET_ENGINE_DYNAMIC_TABLES_PATH . 'includes/autoloader.php';
+		Autoloader::run();
+	}
+
+	/**
+	 * Initialize plugin parts
+	 *
+	 * @return void
+	 */
+	public function on_init() {
+
+		$dashboard = Admin\Dashboard::instance();
+		$this->data = new Data( $dashboard );
+
+		new Render\Preview();
+		new Blocks\Manager();
+		new Bricks_Views\Manager();
+
+		if ( defined( 'ELEMENTOR_VERSION' ) ) {
+			new Elementor\Manager();
+		}
+
+		$pathinfo = pathinfo( JET_ENGINE_DYNAMIC_TABLES_PLUGIN_BASE );
+
+		jet_engine()->modules->updater->register_plugin( array(
+			'slug'    => $pathinfo['filename'],
+			'file'    => JET_ENGINE_DYNAMIC_TABLES_PLUGIN_BASE,
+			'version' => JET_ENGINE_DYNAMIC_TABLES_VERSION
+		) );
+
+	}
+
+	/**
+	 * Register table renderer class
+	 *
+	 * @param  [type] $manager [description]
+	 * @return [type]          [description]
+	 */
+	public function register_table_renderer( $manager ) {
+		$manager->register_render_class(
+			'dynamic-table',
+			array(
+				'class_name' => '\Jet_Engine_Dynamic_Tables\Render\Table_Renderer',
+				'path'       => JET_ENGINE_DYNAMIC_TABLES_PATH . 'includes/render/table-renderer.php',
+			)
+		);
+	}
+
+	public function on_load() {
+
+		add_action( 'jet-engine/listings/renderers/registered', array( $this, 'register_table_renderer' ) );
+
+		if ( class_exists( '\Jet_Smart_Filters' ) ) {
+			new Filters\Manager();
+		}
+	}
+
+	/**
+	 * Plugin constructor.
+	 */
+	private function __construct() {
+
+		if ( ! function_exists( 'jet_engine' ) ) {
+			return;
+		}
+
+		if ( ! version_compare( jet_engine()->get_version(), '2.8.99', '>=' ) ) {
+			return;
+		}
+
+		$this->register_autoloader();
+
+		add_action( 'init', array( $this, 'on_init' ), 12 );
+
+		$this->on_load();
+
+		add_action( 'jet-engine/data-tables/before-render', array( $this, 'add_frontend_query_editor' ) );
+
+		add_filter( 'jet-engine/listing/frontend/js-settings', function( $settings ) {
+			$settings['dynamic_table_export_url'] = jet_engine()->api->get_route( 'table-get-csv' );
+			$settings['dynamic_table_export_error_prefix'] = __( 'Export failed:', 'jet-engine' );
+			$settings['dynamic_table_export_generic_error'] = __( 'Export failed.', 'jet-engine' );
+			return $settings;
+		} );
+
+	}
+
+	public function add_frontend_query_editor( $table_renderer ) {
+		if ( $this->is_preview_render( $table_renderer ) ) {
+			return;
+		}
+
+		if ( ! isset( \Jet_Engine\Query_Builder\Manager::instance()->frontend_editor ) ) {
+			return;
+		}
+
+		\Jet_Engine\Query_Builder\Manager::instance()->frontend_editor->render_edit_buttons( $table_renderer, $table_renderer->get_table_object()->get_query_id() );
+	}
+
+	public function is_preview_render( $table_renderer ) {
+		return is_object( $table_renderer )
+			&& method_exists( $table_renderer, 'get' )
+			&& filter_var( $table_renderer->get( self::PREVIEW_RENDER_FLAG ), FILTER_VALIDATE_BOOLEAN );
+	}
+
+}
+
+Plugin::instance();

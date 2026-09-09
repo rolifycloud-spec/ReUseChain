@@ -1,0 +1,60 @@
+{
+	"apiVersion": 3,
+	"name": "jet-tricks/hotspots",
+	"category": "jet-tricks",
+	"title": "Hotspots",
+	"description": "Add interactive hotspots with tooltips to any image.",
+	"icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" fill=\"none\"><g transform=\"scale(0.0625) translate(0, 1024) scale(1, -1)\"><path d=\"M832 409.262h-264c-15.451 0-29.71 7.474-38.637 19.688l-17.363 23.762-17.363-23.762c-8.926-12.214-23.186-19.688-38.637-19.688h-264c-16.749 0-32-14.442-32-33.683v-229.894c0-19.243 15.251-33.685 32-33.685h640c16.749 0 32 14.442 32 33.685v229.894c0 19.242-15.251 33.683-32 33.683zM568 441.262h264c35.2 0 64-29.557 64-65.683v-229.894c0-36.126-28.8-65.685-64-65.685h-640c-35.2 0-64 29.558-64 65.685v229.894c0 36.126 28.8 65.683 64 65.683h264c5.037 0 9.778 2.434 12.8 6.57l30.4 41.6c6.4 8.757 19.2 8.757 25.6 0l30.4-41.6c3.022-4.136 7.763-6.57 12.8-6.57zM400 688c0 61.856 50.144 112 112 112s112-50.144 112-112c0-61.856-50.144-112-112-112s-112 50.144-112 112zM512 832c-79.53 0-144-64.47-144-144s64.47-144 144-144c79.53 0 144 64.47 144 144s-64.47 144-144 144zM64 864c0 35.346 28.654 64 64 64s64-28.654 64-64c0-35.346-28.654-64-64-64s-64 28.654-64 64zM128 960c-53.019 0-96-42.981-96-96s42.981-96 96-96c53.019 0 96 42.981 96 96s-42.981 96-96 96zM832 864c0 35.346 28.654 64 64 64s64-28.654 64-64c0-35.346-28.654-64-64-64s-64 28.654-64 64zM896 960c-53.019 0-96-42.981-96-96s42.981-96 96-96c53.019 0 96 42.981 96 96s-42.981 96-96 96z\" fill=\"currentColor\"/></g></svg>\n",
+	"textdomain": "jet-tricks",
+	"keywords": [ "hotspots", "tooltips", "image", "jet tricks" ],
+	"attributes": {
+		"className": { "type": "string", "default": "" },
+		"image": {
+			"type": "object",
+			"default": {}
+		},
+		"imageSize": {
+			"type": "string",
+			"default": "full"
+		},
+		"hotspots": {
+			"type": "array",
+			"default": 			[
+				{
+					"id": "hotspot_0",
+					"horizontalPosition": 50,
+					"verticalPosition": 50,
+					"hotspotIcon": {},
+					"hotspotText": "",
+					"hotspotDescription": "",
+					"hotspotUrl": {},
+					"hotspotShowOnInit": false
+				}
+			]
+		},
+		"hotspotsAnimation": { "type": "string", "default": "pulse" },
+		"tooltipPlacement": { "type": "string", "default": "top" },
+		"tooltipArrow": { "type": "boolean", "default": true },
+		"tooltipTrigger": { "type": "string", "default": "mouseenter" },
+		"tooltipShowOnInit": { "type": "boolean", "default": false },
+		"tooltipShowDuration": {
+			"type": "object",
+			"default": { "size": 500, "unit": "ms" }
+		},
+		"tooltipHideDuration": {
+			"type": "object",
+			"default": { "size": 300, "unit": "ms" }
+		},
+		"tooltipDelay": {
+			"type": "object",
+			"default": { "size": 0, "unit": "ms" }
+		},
+		"tooltipDistance": {
+			"type": "object",
+			"default": { "size": 15, "unit": "px" }
+		},
+		"tooltipAnimation": { "type": "string", "default": "fade" },
+		"tooltipInteractive": { "type": "boolean", "default": false }
+	},
+	"editorScript": "jet-tricks-blocks-views"
+}

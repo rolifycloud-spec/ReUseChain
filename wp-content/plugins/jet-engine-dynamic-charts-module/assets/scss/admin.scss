@@ -1,0 +1,148 @@
+.jet-engine-edit-page {
+	&.jet-dynamic-chart-page {
+		border-top: none;
+		flex-wrap: wrap;
+		.jet-engine-edit-page__fields {
+			flex: 0 0 calc( 100% - 430px );
+		}
+		.cx-vui-repeater {
+			padding: 10px 0 15px;
+		}
+		.cx-vui-repeater-item {
+			box-shadow: 0 1px 6px rgba( 35, 40, 45, .15 );
+			&.cx-vui-panel {
+				margin: 0 0 15px;
+			}
+			&__heading {
+				padding: 12px 15px 11px;
+			}
+			.cx-vui-component {
+				padding: 10px 15px;
+			}
+			.cx-vui-component__label {
+				font-size: 14px;
+			}
+		}
+		.jet-engine-edit-page__actions {
+			padding-top: 0;
+		}
+	}
+	.jet-dynamic-table-preview {
+		flex: 0 0 100%;
+		.jet-dynamic-table-reloading-preview {
+			opacity: .5;
+		}
+	}
+}
+
+.jet-engine-check-list {
+	width: 400px;
+	&__item {
+		display: flex;
+		color: #7b7e81;
+		padding: 5px 0 0;
+		&-completed {
+			text-decoration: line-through;
+		}
+		svg {
+			width: 20px;
+			height: auto;
+			margin: 0 7px 0 0;
+			path {
+				fill: currentColor;
+			}
+		}
+	}
+}
+
+.jet-chart-types {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px 0;
+}
+
+.jet-dynamic-chart-preview {
+	width: calc( 100% - 430px );
+}
+
+.jet-dynamic-chart-preview-canvas {
+	margin: 20px 0 0 0;
+	padding: 40px 30px;
+	background: #fff;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.jet-chart-type {
+	flex: 0 0 25%;
+	box-sizing: border-box;
+	padding: 10px;
+	&__content {
+		border: 1px solid #dcdcdd;
+		padding: 20px;
+		text-align: center;
+		border-radius: 6px;
+		cursor: pointer;
+		&:hover,
+		.jet-chart-type--is-active & {
+			border: 1px solid #007CBA;
+			box-shadow: 0 2px 6px rgba( 35, 40, 45, .15 );
+		}
+	}
+	&__image {
+		width: 150px;
+	}
+	&__name {
+		padding: 10px 0 0 0;
+		font-size: 15px;
+		line-height: 23px;
+		font-weight: 500;
+		color: #007CBA;
+	}
+}
+
+.jet-engine-dynamic-table-styles__item {
+	border-top: 1px solid #ececec;
+	.cx-vui-collapse {
+		&__heading {
+			padding: 10px 20px;
+			color: #007cba;
+			font-weight: bold;
+			font-size: 15px;
+		}
+	}
+}
+
+.jet-table-switcher {
+	&__state {
+		display: inline-flex;
+		border-radius: 13px;
+		overflow: hidden;
+		margin: 0 0 0 20px;
+		box-shadow: 0 1px 6px rgba( 35, 40, 45, .07 );
+		&-item {
+			min-width: 80px;
+			padding: 5px;
+			text-align: center;
+			background: #f4f4f5;
+			color: #007cba;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 16px;
+			cursor: pointer;
+			&:hover {
+				background: #eaeaea;
+			}
+			&--active {
+				background: #007cba;
+				color: #fff;
+				cursor: default;
+				&:hover {
+					background: #007cba;
+					color: #fff;
+					cursor: default;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,125 @@
+.jet-tricks-sections-repeater .components-base-control {
+	flex: 1;
+	min-width: 0;
+}
+
+.jet-tricks-sections-repeater .components-base-control .components-text-control__input,
+.jet-tricks-sections-repeater .components-base-control input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.preview-jet-tricks-media {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.preview-jet-tricks-media-icon {
+	padding: 0 25%;
+}
+
+.preview-jet-tricks-media .jet-remove-button {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.preview-jet-tricks-media:hover .jet-remove-button {
+	opacity: 1;
+}
+
+.jet-remove-button.components-button {
+	padding: 0;
+	opacity: 0;
+	transition: opacity 0.3s;
+	max-height: 24px;
+	min-width: 24px;
+}
+
+.jet-media-control .components-button.has-text.has-icon {
+	justify-content: center;
+	width: 100%;
+}
+
+.jet-tricks-unfold-editor .jet-unfold__mask {
+	overflow: hidden;
+}
+.jet-tricks-unfold-editor .jet-unfold-state .jet-unfold__mask {
+	overflow: visible;
+}
+
+.jet-tricks-unfold-editor .jet-unfold__trigger {
+	display: flex;
+}
+
+.jet-tricks-unfold-editor .jet-unfold:not(.jet-unfold-state) .jet-unfold__separator {
+	opacity: 1;
+}
+
+.jet-tricks-unfold-editor .jet-unfold__button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 30px;
+	font-size: 16px;
+	line-height: 1;
+	border-radius: 4px;
+	background-color: #6ec1e4;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+}
+
+.jet-tricks-unfold-editor .jet-unfold__button:hover {
+	background-color: #5ab3d6;
+	color: #fff;
+}
+
+.jet-unfold-editor-inner-blocks {
+	margin: 0;
+	padding: 0;
+	border: 1px dashed #ddd;
+	border-radius: 4px;
+}
+
+.jet-unfold-editor-inner-blocks .block-editor-inner-blocks {
+	padding: 0;
+}
+
+.jet-tricks-hotspots-editor .jet-hotspots__item {
+	visibility: visible !important;
+}
+
+.jet-tricks-hotspots-editor .jet-hotspots__item[href] {
+	text-decoration: none;
+}
+
+/*
+.block-editor-list-view-tree .jet-tricks-has-active-tricks .block-editor-list-view-block-contents {
+	padding-right: 16px;
+	position: relative;
+}
+
+.block-editor-list-view-tree .jet-tricks-has-active-tricks .block-editor-list-view-block-contents::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 4px;
+	width: 6px;
+	height: 6px;
+	margin-top: -3px;
+	border-radius: 50%;
+	background: var(--wp-admin-theme-color, #3858e9);
+	opacity: 0.9;
+	pointer-events: none;
+}
+
+.block-editor-list-view-tree .jet-tricks-has-active-tricks.is-selected .block-editor-list-view-block-contents::before,
+.block-editor-list-view-tree .jet-tricks-has-active-tricks.is-branch-selected .block-editor-list-view-block-contents::before {
+	background: #fff;
+	opacity: 0.95;
+}
+*/

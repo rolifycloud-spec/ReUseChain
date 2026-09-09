@@ -1,0 +1,177 @@
+{
+    "Federacija BiH": {
+      "Unsko-sanski kanton": [
+        { "name": "Bihać", "code": "3" },
+        { "name": "Bosanska Krupa", "code": "82" },
+        { "name": "Bosanski Petrovac", "code": "4" },
+        { "name": "Bužim", "code": "7" },
+        { "name": "Cazin", "code": "8" },
+        { "name": "Ključ", "code": "93" },
+        { "name": "Sanski Most", "code": "32" },
+        { "name": "Velika Kladuša", "code": "104" }
+      ],
+      "Posavski kanton": [
+        { "name": "Domaljevac-Šamac", "code": "86" },
+        { "name": "Odžak", "code": "28" },
+        { "name": "Orašje", "code": "98" }
+      ],
+      "Tuzlanski kanton": [
+        { "name": "Banovići", "code": "2" },
+        { "name": "Čelić", "code": "106" },
+        { "name": "Doboj Istok", "code": "85" },
+        { "name": "Gračanica", "code": "15" },
+        { "name": "Gradačac", "code": "89" },
+        { "name": "Kalesija", "code": "92" },
+        { "name": "Kladanj", "code": "21" },
+        { "name": "Lukavac", "code": "25" },
+        { "name": "Sapna", "code": "100" },
+        { "name": "Srebrenik", "code": "33" },
+        { "name": "Teočak", "code": "34" },
+        { "name": "Tuzla", "code": "37" },
+        { "name": "Živinice", "code": "44" }
+      ],
+      "Zeničko-dobojski kanton": [
+        { "name": "Breza", "code": "83" },
+        { "name": "Doboj Jug", "code": "9" },
+        { "name": "Kakanj", "code": "19" },
+        { "name": "Maglaj", "code": "96" },
+        { "name": "Olovo", "code": "29" },
+        { "name": "Tešanj", "code": "35" },
+        { "name": "Usora", "code": "103" },
+        { "name": "Vareš", "code": "38" },
+        { "name": "Visoko", "code": "39" },
+        { "name": "Zavidovići", "code": "41" },
+        { "name": "Zenica", "code": "42" },
+        { "name": "Žepče", "code": "107" }
+      ],
+      "Bosansko-podrinjski kanton": [
+        { "name": "Goražde", "code": "88" },
+        { "name": "Ustikolina", "code": "81" }
+      ],
+      "Srednjobosanski kanton": [
+        { "name": "Bugojno", "code": "6" },
+        { "name": "Busovača", "code": "84" },
+        { "name": "Dobretići", "code": "10" },
+        { "name": "Donji Vakuf", "code": "11" },
+        { "name": "Fojnica", "code": "12" },
+        { "name": "Gornji Vakuf-Uskoplje", "code": "14" },
+        { "name": "Jajce", "code": "91" },
+        { "name": "Kiseljak", "code": "20" },
+        { "name": "Kreševo", "code": "94" },
+        { "name": "Novi Travnik", "code": "97" },
+        { "name": "Travnik", "code": "36" },
+        { "name": "Vitez", "code": "40" }
+      ],
+      "Hercegovačko-neretvanski kanton": [
+        { "name": "Čapljina", "code": "48" },
+        { "name": "Čitluk", "code": "43" },
+        { "name": "Jablanica", "code": "18" },
+        { "name": "Konjic", "code": "22" },
+        { "name": "Mostar", "code": "26" },
+        { "name": "Neum", "code": "27" },
+        { "name": "Prozor", "code": "99" },
+        { "name": "Ravno", "code": "31" },
+        { "name": "Stolac", "code": "101" }
+      ],
+      "Zapadnohercegovački kanton": [
+        { "name": "Grude", "code": "16" },
+        { "name": "Ljubuški", "code": "95" },
+        { "name": "Posušje", "code": "30" },
+        { "name": "Široki Brijeg", "code": "136" }
+      ],
+      "Kanton Sarajevo": [
+        { "name": "Hadžići", "code": "90" },
+        { "name": "Ilidža", "code": "80" },
+        { "name": "Ilijaš", "code": "17" },
+        { "name": "Sarajevo - Centar", "code": "133" },
+        { "name": "Sarajevo - Novi Grad", "code": "132" },
+        { "name": "Sarajevo - Novo Sarajevo", "code": "131" },
+        { "name": "Sarajevo - Stari Grad", "code": "130" },
+        { "name": "Trnovo", "code": "139" },
+        { "name": "Vogošća", "code": "105" }
+      ],
+      "Kanton 10": [
+        { "name": "Bosansko Grahovo", "code": "5" },
+        { "name": "Drvar", "code": "87" },
+        { "name": "Glamoč", "code": "13" },
+        { "name": "Kupres", "code": "23" },
+        { "name": "Livno", "code": "24" },
+        { "name": "Tomislavgrad", "code": "102" }
+      ]
+    },
+    "Republika Srpska": {
+      "Banjalučka regija": [
+        { "name": "Banja Luka", "code": "79" },
+        { "name": "Čelinac", "code": "108" },
+        { "name": "Gradiška", "code": "72" },
+        { "name": "Jezero", "code": "68" },
+        { "name": "Kneževo", "code": "67" },
+        { "name": "Kostajnica", "code": "66" },
+        { "name": "Kotor Varoš", "code": "119" },
+        { "name": "Kozarska Dubica", "code": "65" },
+        { "name": "Krupa na Uni", "code": "64" },
+        { "name": "Laktaši", "code": "118" },
+        { "name": "Mrkonjić Grad", "code": "61" },
+        { "name": "Novi Grad", "code": "128" },
+        { "name": "Oštra Luka", "code": "129" },
+        { "name": "Prijedor", "code": "56" },
+        { "name": "Prnjavor", "code": "114" },
+        { "name": "Ribnik", "code": "122" },
+        { "name": "Šipovo", "code": "45" },
+        { "name": "Srbac", "code": "53" }
+        ],
+      "Dobojsko-Bijeljinska regija": [
+        { "name": "Bijeljina", "code": "77" },
+        { "name": "Brod", "code": "76" },
+        { "name": "Derventa", "code": "125" },
+        { "name": "Doboj", "code": "134" },
+        { "name": "Donji Žabar", "code": "74" },
+        { "name": "Lopare", "code": "117" },
+        { "name": "Modriča", "code": "116" },
+        { "name": "Pelagićevo", "code": "57" },
+        { "name": "Petrovo", "code": "135" },
+        { "name": "Šamac", "code": "47" },
+        { "name": "Stanari", "code": "138" },
+        { "name": "Teslić", "code": "52" },
+        { "name": "Ugljevik", "code": "51" },
+        { "name": "Vukosavlje", "code": "137" }
+      ],
+      "Sarajevsko-Zvornička regija": [
+        { "name": "Bratunac", "code": "126" },
+        { "name": "Han Pijesak", "code": "123" },
+        { "name": "Istočna Ilidža", "code": "71" },
+        { "name": "Istočni Stari Grad", "code": "69" },
+        { "name": "Istočno Sarajevo", "code": "121" },
+        { "name": "Milići", "code": "62" },
+        { "name": "Novo Goražde", "code": "115" },
+        { "name": "Osmaci", "code": "59" },
+        { "name": "Pale", "code": "58" },
+        { "name": "Rogatica", "code": "55" },
+        { "name": "Rudo", "code": "54" },
+        { "name": "Šekovići", "code": "46" },
+        { "name": "Sokolac", "code": "113" },
+        { "name": "Srebrenica", "code": "112" },
+        { "name": "Višegrad", "code": "110" },
+        { "name": "Vlasenica", "code": "50" },
+        { "name": "Zvornik", "code": "49" }
+      ],
+      "Trebinjsko-Fočanska regija": [
+        { "name": "Berkovići", "code": "127" },
+        { "name": "Bileća", "code": "78" },
+        { "name": "Čajniče", "code": "109" },
+        { "name": "Foča", "code": "124" },
+        { "name": "Gacko", "code": "73" },
+        { "name": "Istočni Mostar", "code": "70" },
+        { "name": "Kalinovik", "code": "120" },
+        { "name": "Ljubinje", "code": "63" },
+        { "name": "Nevesinje", "code": "60" },
+        { "name": "Trebinje", "code": "111" }
+        ]
+    },
+    "Brčko Distrikt": {
+      "Brčko distrikt": [
+        { "name": "Brčko", "code": "75" }
+      ]
+    }
+  }
+  

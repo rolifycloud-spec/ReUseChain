@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "better-messages/user-inbox",
+  "description": "The user's messages, where they can open any conversation they are part of",
+  "version": "1.0",
+  "title": "Messages",
+  "category": "better-messages",
+  "attributes": {
+    "fullScreen": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "bp-better-messages",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "render": "file:./render.php",
+  "keywords": [
+    "better",
+    "messages",
+    "inbox"
+  ]
+}

@@ -1,0 +1,795 @@
+# Translation of Plugins - View Admin As - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - View Admin As - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-22 10:03:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - View Admin As - Stable (latest release)\n"
+
+#: modules/class-role-defaults.php:567
+msgid "User not found"
+msgstr "User not found"
+
+#: ui/class-admin-bar.php:134
+msgid "View As"
+msgstr "View As"
+
+#: modules/class-role-manager.php:1547
+msgid "Add new custom capability"
+msgstr "Add new custom capability"
+
+#: modules/class-role-defaults.php:564
+msgid "No data found for role"
+msgstr "No data found for role"
+
+#: modules/class-caps.php:359
+msgid "Apply view"
+msgstr "Apply view"
+
+#: modules/class-users.php:680
+msgid "Display name"
+msgstr "Display name"
+
+#: modules/class-users.php:679
+msgid "Website"
+msgstr "Website"
+
+#: modules/class-users.php:678
+msgid "Email"
+msgstr "Email"
+
+#: modules/class-users.php:675
+msgid "Search by"
+msgstr "Search by"
+
+#: modules/class-users.php:471
+msgid "Force AJAX search for users"
+msgstr "Force Ajax search for users"
+
+#: modules/class-users.php:470
+msgid "AJAX search users"
+msgstr "Ajax search users"
+
+#: ui/class-admin-bar.php:678
+msgid "Make view combinations"
+msgstr "Make view combinations"
+
+#: ui/class-admin-bar.php:667
+msgid "Combine views"
+msgstr "Combine views"
+
+#: ui/class-admin-bar.php:480
+msgid "View types"
+msgstr "View types"
+
+#. Translators: %s stands for the translated view type label "Capabilities".
+#: modules/class-role-manager.php:787
+msgid "Please enable the \"%s\" view type to add/edit roles"
+msgstr "Please enable the \"%s\" view type to add/edit roles"
+
+#. Translators: %s stands for the translated view type label "Roles".
+#: modules/class-role-defaults.php:1131
+msgid "Please enable the \"%s\" view type to set role defaults"
+msgstr "Please enable the \"%s\" view type to set role defaults"
+
+#: modules/class-languages.php:84
+msgid "Language"
+msgstr "Language"
+
+#: modules/class-caps.php:77
+msgid "Capability"
+msgstr "Capability"
+
+#: ui/templates/adminbar-settings-user.php:198
+msgid "Hide on customizer when no view is selected"
+msgstr "Hide on customiser when no view is selected"
+
+#: ui/templates/adminbar-settings-user.php:197
+msgid "Hide on customizer"
+msgstr "Hide on customiser"
+
+#: modules/class-role-manager.php:1384
+msgid "Migrate users to role"
+msgstr "Migrate users to role"
+
+#: modules/class-role-manager.php:444
+msgid "Migrate users not allowed"
+msgstr "Migrate users not allowed"
+
+#: modules/class-role-manager.php:440
+msgid "Cannot migrate to the same role"
+msgstr "Cannot migrate to the same role"
+
+#: modules/class-caps.php:344
+msgid "Manager"
+msgstr "Manager"
+
+#: ui/class-admin-bar.php:158
+msgid "Viewing as"
+msgstr "Viewing as"
+
+#. Translators: Context is a list of view types. Not the verb.
+#: ui/class-admin-bar.php:154
+msgid "View"
+msgstr "View"
+
+#: modules/class-users.php:123
+msgid "User"
+msgstr "User"
+
+#: modules/class-roles.php:87
+msgid "Role"
+msgstr "Role"
+
+#: modules/class-languages.php:83
+msgid "Languages"
+msgstr "Languages"
+
+#: ui/class-ui.php:180
+msgid "Check out my other plugins"
+msgstr "Check out my other plugins"
+
+#: ui/class-ui.php:179
+msgid "Plugins"
+msgstr "Plugins"
+
+#: modules/class-role-defaults.php:1741 modules/class-role-manager.php:1211
+msgid "Paste code here or select a file below"
+msgstr "Paste code here or select a file below"
+
+#: modules/class-role-defaults.php:1704 modules/class-role-manager.php:1174
+#: ui/class-ui.php:309
+msgid "Download"
+msgstr "Download"
+
+#: modules/class-groups.php:130 modules/class-groups.php:549
+#: modules/class-restrict-user-access.php:172
+#: modules/class-restrict-user-access.php:362
+msgid "Plugin"
+msgstr "Plugin"
+
+#. Translators: %s stands for the requested class, method or function.
+#: includes/class-util.php:287
+msgid "%s does not exist or is not callable."
+msgstr "%s does not exist or is not callable."
+
+#: ui/templates/adminbar-settings-user.php:133
+msgid "Disable super admin status while switched to another view"
+msgstr "Disable super admin status while switched to another view"
+
+#: ui/templates/adminbar-settings-user.php:132
+msgid "Disable super admin"
+msgstr "Disable super admin"
+
+#: modules/class-role-manager.php:1335
+msgid "Append without overwriting the existing capabilities"
+msgstr "Append without overwriting the existing capabilities"
+
+#: modules/class-role-manager.php:1331
+msgid "Merge and overwrite existing capabilities"
+msgstr "Merge and overwrite existing capabilities"
+
+#: modules/class-role-manager.php:1327
+msgid "Fully overwrite capabilities"
+msgstr "Fully overwrite capabilities"
+
+#: modules/class-role-manager.php:1200
+msgid "Import roles"
+msgstr "Import roles"
+
+#: modules/class-role-manager.php:1140
+msgid "Not compatible with the \"All\" option."
+msgstr "Not compatible with the \"All\" option."
+
+#: modules/class-role-manager.php:1139 modules/class-role-manager.php:1244
+msgid "Capabilities only"
+msgstr "Capabilities only"
+
+#: modules/class-role-manager.php:1115
+msgid "Export roles"
+msgstr "Export roles"
+
+#: ui/class-admin-bar.php:204
+msgid "View active"
+msgstr "View active"
+
+#: modules/class-role-defaults.php:1638 modules/class-role-defaults.php:1823
+msgid "Merge and overwrite existing data"
+msgstr "Merge and overwrite existing data"
+
+#: modules/class-role-defaults.php:1615 modules/class-role-defaults.php:1800
+#: modules/class-role-manager.php:1308
+msgid "Merge"
+msgstr "Merge"
+
+#: modules/class-role-defaults.php:665
+msgid "Recording screen changes for role defaults"
+msgstr "Recording screen changes for role defaults"
+
+#: includes/class-vaa.php:757
+msgid "Click here to report this error!"
+msgstr "Click here to report this error!"
+
+#: includes/class-vaa.php:749
+msgid "Error"
+msgstr "Error"
+
+#: ui/class-admin-bar.php:580
+msgid "Modules"
+msgstr "Modules"
+
+#: modules/class-role-manager.php:953
+msgid "Rename role"
+msgstr "Rename role"
+
+#: ui/templates/adminbar-caps-actions.php:134
+#: ui/templates/adminbar-caps-items.php:67
+#: ui/templates/adminbar-language-items.php:60
+#: ui/templates/adminbar-role-items.php:86
+#: ui/templates/adminbar-user-actions.php:63
+#: ui/templates/adminbar-user-items.php:96
+msgid "No toolbar resources found."
+msgstr "No toolbar resources found."
+
+#: ui/class-ui.php:306
+msgid "Key already exists."
+msgstr "Key already exists."
+
+#: ui/templates/adminbar-user-actions.php:35
+msgid "Users are grouped under their roles"
+msgstr "Users are grouped under their roles"
+
+#: modules/class-role-manager.php:1512
+msgid "Save role"
+msgstr "Save role"
+
+#: modules/class-role-manager.php:1488
+msgid "New role"
+msgstr "New role"
+
+#: modules/class-role-manager.php:1481
+msgid "Add/Edit role"
+msgstr "Add/Edit role"
+
+#: modules/class-role-manager.php:1412
+msgid "Delete"
+msgstr "Delete"
+
+#: modules/class-role-manager.php:1358
+msgid "Delete role"
+msgstr "Delete role"
+
+#: modules/class-role-manager.php:980 modules/class-role-manager.php:1057
+#: modules/class-role-manager.php:1528
+msgid "New role name"
+msgstr "New role name"
+
+#: modules/class-role-manager.php:1030
+msgid "Clone role"
+msgstr "Clone role"
+
+#: modules/class-role-manager.php:935
+msgid "No view selected"
+msgstr "No view selected"
+
+#: modules/class-role-manager.php:876
+msgid "Apply current view capabilities to role"
+msgstr "Apply current view capabilities to role"
+
+#: modules/class-role-manager.php:837
+msgid "Select role"
+msgstr "Select role"
+
+#. Translators: %s stands for the translated view type label "Capabilities".
+#: modules/class-role-manager.php:813
+msgid "You can add/edit roles under \"%s\""
+msgstr "You can add/edit roles under \"%s\""
+
+#: modules/class-role-manager.php:216 modules/class-role-manager.php:753
+#: modules/class-role-manager.php:1467
+msgid "Role manager"
+msgstr "Role manager"
+
+#: modules/class-role-manager.php:722
+msgid "Add or remove roles and grant or deny them capabilities"
+msgstr "Add or remove roles and grant or deny them capabilities"
+
+#: modules/class-role-manager.php:721
+msgid "Enable role manager"
+msgstr "Enable role manager"
+
+#: modules/class-role-manager.php:530
+msgid "This role cannot be removed"
+msgstr "This role cannot be removed"
+
+#: modules/class-role-manager.php:380
+msgid "Role already exists"
+msgstr "Role already exists"
+
+#: modules/class-role-manager.php:133
+msgid "The Role Manager module was disabled because database storage for roles is disabled in WordPress."
+msgstr "The Role Manager module was disabled because database storage for roles is disabled in WordPress."
+
+#: modules/class-role-defaults.php:1634 modules/class-role-defaults.php:1819
+msgid "Fully overwrite data"
+msgstr "Fully overwrite data"
+
+#: modules/class-role-defaults.php:1605
+msgid "Copy"
+msgstr "Copy"
+
+#: modules/class-role-defaults.php:1553
+msgid "Copy defaults to role"
+msgstr "Copy defaults to role"
+
+#: modules/class-role-defaults.php:1538
+msgid "Select role source"
+msgstr "Select role source"
+
+#: modules/class-role-defaults.php:843
+msgid "Data copied but there were some errors"
+msgstr "Data copied but there were some errors"
+
+#: modules/class-role-defaults.php:434
+msgid "There were some errors"
+msgstr "There were some errors"
+
+#: modules/class-role-defaults.php:401
+msgid "Invalid meta key(s)"
+msgstr "Invalid meta key(s)"
+
+#. Translators: %s stands for `Dashboard` (link element).
+#: includes/class-vaa.php:708
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. Translators: %s stands for `Dashboard` (link element).
+#: includes/class-vaa.php:707
+msgid "For the best experience you can start from the %s since not all views are allowed to access all admin pages."
+msgstr "For the best experience you can start from the %s since not all views are allowed to access all admin pages."
+
+#: includes/class-vaa.php:710
+msgid "Thank you for installing View Admin As!"
+msgstr "Thank you for installing View Admin As!"
+
+#. Translators: %1$s stands for an option key and %2$s stands for a class name.
+#: includes/class-settings.php:252
+msgid "The setting key %1$s is reserved for class %2$s"
+msgstr "The setting key %1$s is reserved for class %2$s"
+
+#: includes/class-form.php:249
+msgid "Remove"
+msgstr "Remove"
+
+#: modules/class-role-defaults.php:1642 modules/class-role-defaults.php:1827
+msgid "Append without overwriting the existing data"
+msgstr "Append without overwriting the existing data"
+
+#: modules/class-role-defaults.php:1625 modules/class-role-defaults.php:1810
+#: modules/class-role-manager.php:1318
+msgid "Append"
+msgstr "Append"
+
+#: modules/class-role-defaults.php:1260 modules/class-role-manager.php:1550
+msgid "Add"
+msgstr "Add"
+
+#: modules/class-role-defaults.php:1257
+msgid "Add meta key"
+msgstr "Add meta key"
+
+#: modules/class-role-defaults.php:1235
+msgid "Manage meta sync"
+msgstr "Manage meta sync"
+
+#. Description of the plugin
+#: view-admin-as.php
+msgid "View the WordPress admin as a different role or visitor, switch between users, temporarily change your capabilities, set default screen settings for roles."
+msgstr "View the WordPress admin as a different role or visitor, switch between users, temporarily change your capabilities, set default screen settings for roles."
+
+#: ui/class-ui.php:138
+msgid "Quick help via Slack"
+msgstr "Quick help via Slack"
+
+#: ui/class-ui.php:137
+msgid "Slack"
+msgstr "Slack"
+
+#: ui/class-admin-bar.php:641
+msgid "View as site visitor"
+msgstr "View as site visitor"
+
+#: includes/class-controller.php:300 ui/class-admin-bar.php:638
+msgid "Site visitor"
+msgstr "Site visitor"
+
+#. Translators: %s stands for the view type name.
+#. Translators: %s stands for the user display name.
+#. Translators: %s stands for the translated role name.
+#. Translators: %s stands for the user view title (display name by default).
+#: modules/class-groups.php:597 modules/class-restrict-user-access.php:436
+#: modules/class-users.php:642 ui/templates/adminbar-language-items.php:51
+#: ui/templates/adminbar-role-items.php:77
+#: ui/templates/adminbar-user-items.php:65
+msgid "View as %s"
+msgstr "View as %s"
+
+#: ui/templates/adminbar-caps-actions.php:57
+#: ui/templates/adminbar-caps-actions.php:64
+msgid "Current view"
+msgstr "Current view"
+
+#: ui/class-ui.php:174
+msgid "Buy me a coffee!"
+msgstr "Buy me a coffee!"
+
+#: ui/class-ui.php:173
+msgid "Donate"
+msgstr "Donate"
+
+#: ui/class-ui.php:167
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ui/class-ui.php:155
+msgid "Report issue"
+msgstr "Report issue"
+
+#: ui/class-ui.php:149
+msgid "Translate"
+msgstr "Translate"
+
+#: ui/class-ui.php:143
+msgid "Review"
+msgstr "Review"
+
+#: ui/class-ui.php:131
+msgid "Support"
+msgstr "Support"
+
+#: ui/templates/adminbar-settings-user.php:233
+msgid "Force your own locale setting to the current view"
+msgstr "Force your own locale setting to the current view"
+
+#: ui/templates/adminbar-settings-user.php:232
+msgid "Freeze locale"
+msgstr "Freeze locale"
+
+#: ui/class-admin-bar.php:325
+msgid "Version"
+msgstr "Version"
+
+#: includes/class-vaa.php:366
+msgid "Plugin not fully loaded because of a conflict with an other plugin or theme"
+msgstr "Plugin not fully loaded because of a conflict with another plugin or theme"
+
+#: ui/class-ui.php:83
+msgid "Reset view"
+msgstr "Reset view"
+
+#: ui/templates/adminbar-settings-user.php:166
+msgid "Hide on frontend when no view is selected and the admin bar is not shown"
+msgstr "Hide on frontend when no view is selected and the admin bar is not shown"
+
+#: ui/templates/adminbar-settings-user.php:165
+msgid "Hide on frontend"
+msgstr "Hide on frontend"
+
+#: ui/class-ui.php:168
+msgid "Follow development on GitHub"
+msgstr "Follow development on GitHub"
+
+#: modules/class-role-defaults.php:1111 modules/class-role-defaults.php:1245
+#: modules/class-role-manager.php:766 ui/class-ui.php:161 ui/class-ui.php:162
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ui/class-ui.php:150
+msgid "Help translating this plugin!"
+msgstr "Help translating this plugin!"
+
+#: ui/class-ui.php:156
+msgid "Have ideas or a bug report?"
+msgstr "Have ideas or a bug report?"
+
+#: ui/class-ui.php:144
+msgid "Give 5 stars on WordPress.org!"
+msgstr "Give 5 stars on WordPress.org!"
+
+#: ui/class-ui.php:132
+msgid "Need support?"
+msgstr "Need support?"
+
+#: ui/class-admin-bar.php:305
+msgid "Info"
+msgstr "Info"
+
+#: modules/class-role-defaults.php:1205
+msgid "Lock meta box order and locations for all users who can't access role defaults"
+msgstr "Lock meta box order and locations for all users who can't access role defaults"
+
+#: modules/class-role-defaults.php:1204
+msgid "Lock meta boxes"
+msgstr "Lock meta boxes"
+
+#: ui/class-ui.php:378
+msgid "The view you have selected is not permitted to access this page, please choose one of the options below."
+msgstr "The view you have selected is not permitted to access this page, please choose one of the options below."
+
+#: ui/class-ui.php:357
+msgid "Reset the view"
+msgstr "Reset the view"
+
+#: ui/class-ui.php:350
+msgid "Go to homepage"
+msgstr "Go to homepage"
+
+#: ui/class-ui.php:346
+msgid "Go to dashboard"
+msgstr "Go to dashboard"
+
+#: ui/class-ui.php:341
+msgid "Go to network dashboard"
+msgstr "Go to network dashboard"
+
+#: includes/class-base.php:211 includes/class-vaa.php:947
+msgid "This class does not want to wake up"
+msgstr "This class does not want to wake up"
+
+#: includes/class-base.php:196 includes/class-vaa.php:932
+msgid "This class does not want to be cloned"
+msgstr "This class does not want to be cloned"
+
+#: ui/class-ui.php:308
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#: modules/class-users.php:437
+msgid "Group users under their assigned roles"
+msgstr "Group users under their assigned roles"
+
+#: modules/class-users.php:436
+msgid "Group users"
+msgstr "Group users"
+
+#: view-admin-as.php:119
+msgid "Plugin not activated because of a conflict with an other plugin or theme"
+msgstr "Plugin not activated because of a conflict with another plugin or theme"
+
+#. Translators: %1$s stands for "WordPress", %2$s stands for the version.
+#: includes/class-vaa.php:849
+msgid "Plugin deactivated, %1$s version %2$s or higher is required"
+msgstr "Plugin deactivated, %1$s version %2$s or higher is required"
+
+#. Translators: %s stands for the class name.
+#: includes/class-vaa.php:368 view-admin-as.php:121
+msgid "Class %s already exists"
+msgstr "Class %s already exists"
+
+#: modules/class-role-defaults.php:1182
+msgid "Hide the screen options for all users who can't access role defaults"
+msgstr "Hide the screen options for all users who can't access role defaults"
+
+#: modules/class-role-defaults.php:1181
+msgid "Disable screen options"
+msgstr "Disable screen options"
+
+#: modules/class-role-defaults.php:1161
+msgid "Automatically apply defaults to new users"
+msgstr "Automatically apply defaults to new users"
+
+#: modules/class-role-defaults.php:1665
+msgid "Export defaults for role"
+msgstr "Export defaults for role"
+
+#: includes/class-base.php:228 includes/class-vaa.php:964
+msgid "Method does not exist."
+msgstr "Method does not exist."
+
+#: ui/class-ui.php:307
+msgid "Success"
+msgstr "Success"
+
+#: includes/class-controller.php:149 modules/class-users.php:583
+msgid "Cheatin uh?"
+msgstr "Cheatin uh?"
+
+#: ui/templates/adminbar-settings-user.php:95
+msgid "Choose view on every pageload. This setting doesn't store views"
+msgstr "Choose view on every pageload. This setting doesn't store views"
+
+#: ui/templates/adminbar-settings-user.php:94
+msgid "Single switch mode"
+msgstr "Single switch mode"
+
+#: ui/templates/adminbar-settings-user.php:89
+msgid "Store view and use WordPress with this view"
+msgstr "Store view and use WordPress with this view"
+
+#: ui/templates/adminbar-settings-user.php:88
+msgid "Browse mode"
+msgstr "Browse mode"
+
+#: ui/templates/adminbar-settings-user.php:45
+msgid "Change the location of this menu node"
+msgstr "Change the location of this menu node"
+
+#: ui/templates/adminbar-settings-user.php:54
+msgid "My account"
+msgstr "My account"
+
+#: ui/templates/adminbar-settings-user.php:44
+msgid "Location"
+msgstr "Location"
+
+#: ui/class-admin-bar.php:408
+msgid "Settings"
+msgstr "Settings"
+
+#: modules/class-role-defaults.php:1881
+msgid "Remove defaults for role"
+msgstr "Remove defaults for role"
+
+#: modules/class-role-defaults.php:1790 modules/class-role-manager.php:1298
+msgid "Import"
+msgstr "Import"
+
+#: modules/class-role-defaults.php:1699 modules/class-role-manager.php:1169
+msgid "Export"
+msgstr "Export"
+
+#: modules/class-role-defaults.php:1065
+msgid "Set default screen settings for roles and apply them on users through various bulk and automatic actions"
+msgstr "Set default screen settings for roles and apply them to users through various bulk and automatic actions"
+
+#: modules/class-role-defaults.php:953 modules/class-role-manager.php:604
+msgid "Data imported but there were some errors"
+msgstr "Data imported but there were some errors"
+
+#: modules/class-role-defaults.php:835 modules/class-role-defaults.php:943
+#: modules/class-role-manager.php:446 modules/class-role-manager.php:480
+#: modules/class-role-manager.php:513 modules/class-role-manager.php:527
+#: modules/class-role-manager.php:581 modules/class-role-manager.php:635
+#: modules/class-role-manager.php:650
+msgid "Role not found"
+msgstr "Role not found"
+
+#: modules/class-role-defaults.php:939
+msgid "Key not allowed"
+msgstr "Key not allowed"
+
+#: modules/class-role-defaults.php:424 modules/class-role-defaults.php:850
+#: modules/class-role-defaults.php:907 modules/class-role-defaults.php:926
+#: modules/class-role-defaults.php:961 modules/class-role-manager.php:279
+#: modules/class-role-manager.php:344 modules/class-role-manager.php:502
+#: modules/class-role-manager.php:576 modules/class-role-manager.php:591
+#: modules/class-role-manager.php:629
+msgid "No valid data found"
+msgstr "No valid data found"
+
+#: modules/class-role-defaults.php:460 modules/class-role-manager.php:214
+msgid "Copy code"
+msgstr "Copy code"
+
+#. Author URI of the plugin
+#: view-admin-as.php
+msgid "https://www.keraweb.nl"
+msgstr "https://www.keraweb.nl"
+
+#. Author of the plugin
+#: view-admin-as.php
+msgid "Jory Hogeveen"
+msgstr "Jory Hogeveen"
+
+#. Plugin URI of the plugin
+#: view-admin-as.php
+msgid "https://wordpress.org/plugins/view-admin-as/"
+msgstr "https://wordpress.org/plugins/view-admin-as/"
+
+#. Plugin Name of the plugin
+#: view-admin-as.php includes/class-compat.php:442
+#: includes/class-compat.php:464 includes/class-vaa.php:793
+#: ui/class-admin-bar.php:200 ui/class-ui.php:83 ui/class-ui.php:377
+#: view-admin-as.php:118
+msgid "View Admin As"
+msgstr "View Admin As"
+
+#: modules/class-users.php:616 ui/class-ui.php:305
+msgid "No users found."
+msgstr "No users found."
+
+#: includes/class-controller.php:183
+msgid "Something went wrong, please try again."
+msgstr "Something went wrong, please try again."
+
+#: modules/class-caps.php:233
+msgid "These are your default capabilities!"
+msgstr "These are your default capabilities!"
+
+#: includes/class-controller.php:162 modules/class-caps.php:247
+msgid "This view is already selected!"
+msgstr "This view is already selected!"
+
+#: modules/class-role-defaults.php:1414
+#: ui/templates/adminbar-user-actions.php:46
+msgid "Search"
+msgstr "Search"
+
+#: modules/class-users.php:122
+msgid "Users"
+msgstr "Users"
+
+#: modules/class-role-defaults.php:462 modules/class-role-defaults.php:1098
+msgid "Role defaults"
+msgstr "Role defaults"
+
+#: modules/class-roles.php:86
+msgid "Roles"
+msgstr "Roles"
+
+#: ui/templates/adminbar-caps-actions.php:122
+msgid "Deselect"
+msgstr "Deselect"
+
+#: ui/templates/adminbar-caps-actions.php:116
+msgid "Select"
+msgstr "Select"
+
+#: modules/class-caps.php:76
+msgid "Capabilities"
+msgstr "Capabilities"
+
+#: ui/class-admin-bar.php:251 ui/class-admin-bar.php:256
+msgid "Reset to default"
+msgstr "Reset to default"
+
+#: ui/templates/adminbar-caps-actions.php:49
+#: ui/templates/adminbar-settings-user.php:50
+msgid "Default"
+msgstr "Default"
+
+#: modules/class-users.php:1157
+msgid "View as"
+msgstr "View as"
+
+#: modules/class-role-defaults.php:1730
+msgid "Import defaults for role"
+msgstr "Import defaults for role"
+
+#: modules/class-role-defaults.php:1349 modules/class-role-defaults.php:1855
+#: modules/class-role-manager.php:1100
+msgid "All roles"
+msgstr "All roles"
+
+#: modules/class-role-defaults.php:1485
+msgid "Apply defaults to users by role"
+msgstr "Apply defaults to users by role"
+
+#: modules/class-role-defaults.php:1307 modules/class-role-defaults.php:1450
+#: modules/class-role-defaults.php:1509 modules/class-role-defaults.php:1905
+#: modules/class-role-manager.php:905 modules/class-role-manager.php:993
+#: modules/class-role-manager.php:1070 ui/class-admin-bar.php:670
+msgid "Apply"
+msgstr "Apply"
+
+#: modules/class-role-defaults.php:1428 modules/class-users.php:677
+msgid "Username"
+msgstr "Username"
+
+#: modules/class-role-defaults.php:1428
+#: ui/templates/adminbar-caps-actions.php:35
+msgid "Filter"
+msgstr "Filter"
+
+#: modules/class-role-defaults.php:1397
+msgid "Apply defaults to users"
+msgstr "Apply defaults to users"
+
+#: modules/class-role-defaults.php:1064
+msgid "Enable role defaults"
+msgstr "Enable role defaults"

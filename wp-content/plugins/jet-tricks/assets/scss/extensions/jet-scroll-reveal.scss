@@ -1,0 +1,162 @@
+// Scroll reveal (Elementor widget extension)
+$jet-sr-ease-mask: cubic-bezier(0.77, 0, 0.175, 1);
+
+.jet-scroll-reveal-widget {
+	--jet-sr-duration: 0.6s;
+	--jet-sr-delay: 0s;
+}
+
+// Repeat mode: reset to "hidden" state instantly when leaving viewport (no reverse animation).
+.jet-scroll-reveal-widget.jet-scroll-reveal--instant-exit {
+	transition: none !important;
+	will-change: auto;
+
+	&::before {
+		transition: none !important;
+		will-change: auto;
+	}
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	opacity: 0;
+	transition:
+		opacity var(--jet-sr-duration) ease var(--jet-sr-delay),
+		transform var(--jet-sr-duration) ease var(--jet-sr-delay);
+	will-change: opacity, transform;
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--in-view {
+	opacity: 1;
+	transform: none;
+	transition:
+		opacity var(--jet-sr-duration) ease var(--jet-sr-delay),
+		transform var(--jet-sr-duration) ease var(--jet-sr-delay);
+}
+
+// Mask: colored overlay (::before) clips away; content stays opacity 1
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-mask {
+	&.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view),
+	&.jet-scroll-reveal--in-view {
+		opacity: 1;
+		transform: none;
+	}
+
+	position: relative;
+	overflow: hidden;
+	isolation: isolate;
+
+	> *:not(.jet-tricks-particles-section__instance) {
+		position: relative;
+		z-index: 1;
+	}
+
+	> .jet-tricks-particles-section__instance {
+		position: absolute;
+		z-index: 1;
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		z-index: 2;
+		pointer-events: none;
+		background-color: var(--jet-sr-mask-color, #ffffff);
+		border-radius: var(--jet-sr-mask-radius, 0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-clip-path: inset(0);
+		clip-path: inset(0);
+		transition:
+			-webkit-clip-path var(--jet-sr-duration) #{$jet-sr-ease-mask} var(--jet-sr-delay),
+			clip-path var(--jet-sr-duration) #{$jet-sr-ease-mask} var(--jet-sr-delay);
+		will-change: clip-path;
+	}
+
+	&.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view)::before {
+		-webkit-clip-path: inset(0);
+		clip-path: inset(0);
+	}
+
+	&.jet-scroll-reveal--mask-dir-up.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(100% 0 0 0);
+		clip-path: inset(100% 0 0 0);
+	}
+
+	&.jet-scroll-reveal--mask-dir-down.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(0 0 100% 0);
+		clip-path: inset(0 0 100% 0);
+	}
+
+	&.jet-scroll-reveal--mask-dir-left.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(0 100% 0 0);
+		clip-path: inset(0 100% 0 0);
+	}
+
+	&.jet-scroll-reveal--mask-dir-right.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(0 0 0 100%);
+		clip-path: inset(0 0 0 100%);
+	}
+
+	&.jet-scroll-reveal--mask-dir-center-vertical.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(50% 0 50% 0);
+		clip-path: inset(50% 0 50% 0);
+	}
+
+	&.jet-scroll-reveal--mask-dir-center-horizontal.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(0 50% 0 50%);
+		clip-path: inset(0 50% 0 50%);
+	}
+
+	&.jet-scroll-reveal--mask-dir-center-all.jet-scroll-reveal--in-view::before {
+		-webkit-clip-path: inset(50% 50% 50% 50%);
+		clip-path: inset(50% 50% 50% 50%);
+	}
+}
+
+// Non-mask effects (clip-path on widget)
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-fade.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: none;
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-fade-up.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: translate3d(0, 40px, 0);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-fade-down.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: translate3d(0, -40px, 0);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-fade-left.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: translate3d(40px, 0, 0);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-fade-right.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: translate3d(-40px, 0, 0);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-zoom-in.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: scale3d(0.92, 0.92, 1);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-zoom-out.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: scale3d(1.08, 1.08, 1);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-flip-up.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: perspective(1000px) rotateX(-14deg) translate3d(0, 24px, 0);
+	transform-origin: center bottom;
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-flip-up.jet-scroll-reveal--in-view {
+	transform: perspective(1000px) rotateX(0) translate3d(0, 0, 0);
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-flip-down.jet-scroll-reveal--pending:not(.jet-scroll-reveal--in-view) {
+	transform: perspective(1000px) rotateX(14deg) translate3d(0, -24px, 0);
+	transform-origin: center top;
+}
+
+.jet-scroll-reveal-widget.jet-scroll-reveal--effect-flip-down.jet-scroll-reveal--in-view {
+	transform: perspective(1000px) rotateX(0) translate3d(0, 0, 0);
+}

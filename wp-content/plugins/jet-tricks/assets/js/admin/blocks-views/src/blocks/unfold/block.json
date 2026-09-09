@@ -1,0 +1,54 @@
+{
+	"apiVersion": 3,
+	"name": "jet-tricks/unfold",
+	"category": "jet-tricks",
+	"title": "Unfold",
+	"description": "Hide extra content with a gradient mask and reveal it with an unfold button.",
+	"icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" fill=\"none\"><g transform=\"scale(0.0625) translate(0, 1024) scale(1, -1)\"><path d=\"M144 441.373l43.314 43.314c6.248 6.248 6.248 16.379 0 22.627-6.248 6.25-16.379 6.25-22.627 0l-20.686-20.686-20.686 20.686c-6.248 6.25-16.379 6.25-22.628 0-6.248-6.248-6.248-16.379 0-22.627l43.314-43.314zM64 912h368c35.346 0 64-28.654 64-64v-432c0-35.346-28.654-64-64-64h-368c-35.346 0-64 28.654-64 64v432c0 35.346 28.654 64 64 64zM432 880h-368c-17.673 0-32-14.327-32-32v-432c0-17.674 14.327-32 32-32h368c17.674 0 32 14.326 32 32v432c0 17.673-14.326 32-32 32zM624 800c0 8.837 7.163 16 16 16h272c8.837 0 16-7.163 16-16s-7.163-16-16-16h-272c-8.837 0-16 7.163-16 16zM672 278.627l43.314-43.314c6.248-6.248 6.248-16.379 0-22.627-6.248-6.25-16.379-6.25-22.627 0l-20.686 20.686-20.686-20.686c-6.248-6.25-16.379-6.25-22.627 0-6.248 6.248-6.248 16.379 0 22.627l43.314 43.314zM640 752c-8.837 0-16-7.163-16-16s7.163-16 16-16h272c8.837 0 16 7.163 16 16s-7.163 16-16 16h-272zM624 672c0 8.837 7.163 16 16 16h128c8.837 0 16-7.163 16-16s-7.163-16-16-16h-128c-8.837 0-16 7.163-16 16zM592 912h368c35.346 0 64-28.654 64-64v-672c0-35.346-28.654-64-64-64h-368c-35.346 0-64 28.654-64 64v672c0 35.346 28.654 64 64 64zM960 880h-368c-17.674 0-32-14.327-32-32v-672c0-17.674 14.326-32 32-32h368c17.674 0 32 14.326 32 32v672c0 17.673-14.326 32-32 32z\" fill=\"currentColor\"/></g></svg>\n",
+	"textdomain": "jet-tricks",
+	"keywords": [ "unfold", "expand", "show more", "jet tricks" ],
+	"attributes": {
+		"className": { "type": "string", "default": "" },
+		"fold": { "type": "boolean", "default": false },
+		"maskHeight": {
+			"type": "object",
+			"default": { "size": 50, "unit": "px" }
+		},
+		"heightControlType": { "type": "string", "default": "height" },
+		"wordCount": { "type": "number", "default": 20 },
+		"separatorType": { "type": "string", "default": "div" },
+		"separatorHeight": {
+			"type": "object",
+			"default": { "size": 30, "unit": "px" }
+		},
+		"separatorZIndex": { "type": "number", "default": 0 },
+		"unfoldText": { "type": "string", "default": "Show" },
+		"foldText": { "type": "string", "default": "Hide" },
+		"unfoldIcon": { "type": "object", "default": {} },
+		"foldIcon": { "type": "object", "default": {} },
+		"unfoldDuration": {
+			"type": "object",
+			"default": { "size": 500, "unit": "ms" }
+		},
+		"foldDuration": {
+			"type": "object",
+			"default": { "size": 300, "unit": "ms" }
+		},
+		"unfoldEasing": { "type": "string", "default": "easeOutBack" },
+		"foldEasing": { "type": "string", "default": "easeOutSine" },
+		"foldScroll": { "type": "boolean", "default": false },
+		"foldScrollOffset": {
+			"type": "object",
+			"default": { "size": 0, "unit": "px" }
+		},
+		"autohide": { "type": "boolean", "default": false },
+		"autohideTime": { "type": "number", "default": 5 },
+		"hideOutsideClick": { "type": "boolean", "default": false },
+		"buttonAlignment": { "type": "string", "default": "center" },
+		"buttonIconPosition": { "type": "string", "default": "row" }
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "jet-tricks-blocks-views"
+}
